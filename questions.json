@@ -1,0 +1,502 @@
+[
+    {
+        "question": "Câu 1: Cấp độ tổ chức nhỏ nhất của cơ thể sống là:",
+        "options": [
+            "Cấp độ hóa học",
+            "Cấp độ tế bào",
+            "Cấp độ mô",
+            "Cấp độ cơ quan"
+        ],
+        "answer": "Cấp độ tế bào"
+    },
+    {
+        "question": "Câu 2: Đặc trưng nào sau đây không phải của biểu mô?",
+        "options": [
+            "Bao gồm các tế bào đứng cạnh nhau",
+            "Liên kết chặt chẽ với nhau bằng nhiều hình thức liên kết",
+            "Có hệ thống mạch máu phong phú nuôi dưỡng",
+            "Thường xuyên được đổi mới"
+        ],
+        "answer": "Có hệ thống mạch máu phong phú nuôi dưỡng"
+    },
+    {
+        "question": "Câu 3: Đặc điểm hình thái nào sau đây không chính xác về tế bào biểu mô?",
+        "options": [
+            "TB lát: TB mỏng trải rộng thường có nhân dẹt/thoi",
+            "TB khối vuông: chiều ngang và chiều cao TB tương đương nhau, nhân hình cầu nằm ở cực đáy",
+            "TB hình trụ: chiều cao > chiều ngang, nhân TB dạng hơi bầu dục, thường lệch về cực đáy",
+            "Một số TB có hình thái đa diện, đa dạng"
+        ],
+        "answer": "TB khối vuông: chiều ngang và chiều cao TB tương đương nhau, nhân hình cầu nằm ở cực đáy"
+    },
+    {
+        "question": "Câu 4: Cấu trúc lông chuyển xuất hiện trong cơ quan nào sau đây?",
+        "options": [
+            "Mào tinh",
+            "Ống dẫn tinh",
+            "Vòi trứng",
+            "Buồng trứng"
+        ],
+        "answer": "Vòi trứng"
+    },
+    {
+        "question": "Câu 5: Tuyến bã ở da chết tiết theo kiểu:",
+        "options": [
+            "Toàn vẹn",
+            "Bán hủy",
+            "Toàn hủy",
+            "Hỗn hợp"
+        ],
+        "answer": "Toàn hủy"
+    },
+    {
+        "question": "Câu 6: Chức năng chính của vi nhung mao là:",
+        "options": [
+            "Tăng cường sự liên kết giữa các tế bào biểu mô",
+            "Tăng diện tích bề mặt để hấp thu",
+            "Tham gia vào quá trình vận chuyển các chất",
+            "Bảo vệ tế bào khỏi các tác nhân gây hại"
+        ],
+        "answer": "Tăng diện tích bề mặt để hấp thu"
+    },
+    {
+        "question": "Câu 7: Loại tế bào nào sau đây có khả năng tái tạo mạnh mẽ nhất?",
+        "options": [
+            "Tế bào thần kinh",
+            "Tế bào biểu mô",
+            "Tế bào cơ tim",
+            "Tế bào sụn"
+        ],
+        "answer": "Tế bào biểu mô"
+    },
+    {
+        "question": "Câu 8: Liên kết nào sau đây không phải là liên kết điểm giữa các tế bào biểu mô?",
+        "options": [
+            "Khớp mộng",
+            "Liên kết khe",
+            "Thể liên kết",
+            "Vòng bịt"
+        ],
+        "answer": "Liên kết khe"
+    },
+    {
+        "question": "Câu 9: Biểu mô lát tầng sừng hóa được tìm thấy ở đâu?",
+        "options": [
+            "Lòng mạch máu",
+            "Bề mặt da",
+            "Đường hô hấp",
+            "Ống tiêu hóa"
+        ],
+        "answer": "Bề mặt da"
+    },
+    {
+        "question": "Câu 10: Loại tuyến nào sau đây tiết chất tiết bằng cách phá hủy toàn bộ tế bào?",
+        "options": [
+            "Tuyến mồ hôi",
+            "Tuyến nước bọt",
+            "Tuyến bã",
+            "Tuyến giáp"
+        ],
+        "answer": "Tuyến bã"
+    },
+    {
+        "question": "Câu 11: Cấu trúc nào sau đây có chứa 9 cặp vi ống ngoại vi và một cặp vi ống trung tâm?",
+        "options": [
+            "Vi nhung mao",
+            "Lông chuyển",
+            "Lông giả",
+            "Mê đạo đáy"
+        ],
+        "answer": "Lông chuyển"
+    },
+    {
+        "question": "Câu 12: Chức năng chính của tế bào hình vợt (TB trung gian) ở biểu mô đa dạng tầng là gì?",
+        "options": [
+            "Bảo vệ các tế bào khác",
+            "Thay đổi hình dạng để thích ứng với sự căng giãn",
+            "Tiết chất nhầy",
+            "Hấp thu các chất dinh dưỡng"
+        ],
+        "answer": "Thay đổi hình dạng để thích ứng với sự căng giãn"
+    },
+    {
+        "question": "Câu 13: Loại biểu mô nào sau đây lót mặt trong của khí quản?",
+        "options": [
+            "Biểu mô lát đơn",
+            "Biểu mô trụ đơn",
+            "Biểu mô trụ giả tầng có lông chuyển",
+            "Biểu mô lát tầng không sừng hóa"
+        ],
+        "answer": "Biểu mô trụ giả tầng có lông chuyển"
+    },
+    {
+        "question": "Câu 14: Tuyến nội tiết nào sau đây có cấu trúc dạng túi?",
+        "options": [
+            "Tuyến yên",
+            "Tuyến thượng thận",
+            "Tuyến giáp",
+            "Tuyến kẽ tinh hoàn"
+        ],
+        "answer": "Tuyến giáp"
+    },
+    {
+        "question": "Câu 15: Loại tế bào nào sau đây có chứa nhiều lưới nội bào trơn và không có hạt chế tiết?",
+        "options": [
+            "Tế bào tiết protein",
+            "Tế bào tiết steroid",
+            "Tế bào tiết chất nhầy",
+            "Tế bào tiết enzyme"
+        ],
+        "answer": "Tế bào tiết steroid"
+    },
+    {
+        "question": "Câu 16: Loại tế bào nào sau đây có chức năng sản xuất kháng thể?",
+        "options": [
+            "Tế bào lympho T",
+            "Tế bào lympho B",
+            "Tế bào NK",
+            "Tế bào tua"
+        ],
+        "answer": "Tế bào lympho B"
+    },
+    {
+        "question": "Câu 17: Cấu trúc nào sau đây có vai trò quan trọng trong việc điều hòa nồng độ canxi trong máu?",
+        "options": [
+            "Tuyến yên",
+            "Tuyến giáp",
+            "Tuyến thượng thận",
+            "Tuyến ức"
+        ],
+        "answer": "Tuyến giáp"
+    },
+    {
+        "question": "Câu 18: Loại tế bào nào sau đây có khả năng thực bào các tế bào chết và các mảnh vụn tế bào?",
+        "options": [
+            "Tế bào sợi",
+            "Tế bào mast",
+            "Đại thực bào",
+            "Tế bào nội mô"
+        ],
+        "answer": "Đại thực bào"
+    },
+    {
+        "question": "Câu 19: Liên kết nào sau đây cho phép các tế bào trao đổi chất trực tiếp với nhau?",
+        "options": [
+            "Thể liên kết",
+            "Vòng bịt",
+            "Liên kết khe",
+            "Khớp mộng"
+        ],
+        "answer": "Liên kết khe"
+    },
+    {
+        "question": "Câu 20: Biểu mô nào sau đây lót mặt trong của tim và mạch máu?",
+        "options": [
+            "Biểu mô lát đơn",
+            "Biểu mô lát tầng",
+            "Biểu mô trụ đơn",
+            "Biểu mô trụ giả tầng"
+        ],
+        "answer": "Biểu mô lát đơn"
+    },
+    {
+        "question": "Câu 21: Chức năng chính của tế bào Schwann là gì?",
+        "options": [
+            "Tạo ra myelin bao bọc các sợi thần kinh",
+            "Dẫn truyền xung thần kinh",
+            "Hỗ trợ và nuôi dưỡng các tế bào thần kinh",
+            "Loại bỏ các chất thải từ hệ thần kinh"
+        ],
+        "answer": "Tạo ra myelin bao bọc các sợi thần kinh"
+    },
+    {
+        "question": "Câu 22: Loại mô nào sau đây có khả năng co giãn và đàn hồi tốt nhất?",
+        "options": [
+            "Mô biểu mô",
+            "Mô liên kết",
+            "Mô cơ",
+            "Mô thần kinh"
+        ],
+        "answer": "Mô liên kết"
+    },
+    {
+        "question": "Câu 23: Cấu trúc nào sau đây có chứa các tế bào cảm giác vị giác?",
+        "options": [
+            "Gai lưỡi",
+            "Nhú lưỡi",
+            "Hạnh nhân",
+            "Lông mũi"
+        ],
+        "answer": "Nhú lưỡi"
+    },
+    {
+        "question": "Câu 24: Chức năng chính của tế bào Kupffer là gì?",
+        "options": [
+            "Sản xuất mật",
+            "Lưu trữ glycogen",
+            "Khử độc các chất độc hại",
+            "Thực bào các vi khuẩn và tế bào chết"
+        ],
+        "answer": "Thực bào các vi khuẩn và tế bào chết"
+    },
+    {
+        "question": "Câu 25: Loại tế bào nào sau đây có khả năng di chuyển và xuyên mạch để đến các vị trí viêm nhiễm?",
+        "options": [
+            "Tế bào hồng cầu",
+            "Tế bào bạch cầu",
+            "Tế bào tiểu cầu",
+            "Tế bào sợi"
+        ],
+        "answer": "Tế bào bạch cầu"
+    },
+    {
+        "question": "Câu 26: Chức năng chính của tế bào Mast là gì?",
+        "options": [
+            "Sản xuất kháng thể",
+            "Giải phóng histamin và heparin",
+            "Thực bào các tế bào chết",
+            "Vận chuyển oxy"
+        ],
+        "answer": "Giải phóng histamin và heparin"
+    },
+    {
+        "question": "Câu 27: Loại mô nào sau đây có chứa nhiều sợi collagen nhất?",
+        "options": [
+            "Mô biểu mô",
+            "Mô liên kết",
+            "Mô cơ",
+            "Mô thần kinh"
+        ],
+        "answer": "Mô liên kết"
+    },
+    {
+        "question": "Câu 28: Cấu trúc nào sau đây có vai trò quan trọng trong việc bảo vệ cơ thể khỏi các tác nhân gây bệnh?",
+        "options": [
+            "Da",
+            "Niêm mạc",
+            "Hạch bạch huyết",
+            "Tất cả các đáp án trên"
+        ],
+        "answer": "Tất cả các đáp án trên"
+    },
+    {
+        "question": "Câu 29: Loại tế bào nào sau đây có khả năng co bóp để tạo ra sự vận động của cơ thể?",
+        "options": [
+            "Tế bào biểu mô",
+            "Tế bào liên kết",
+            "Tế bào cơ",
+            "Tế bào thần kinh"
+        ],
+        "answer": "Tế bào cơ"
+    },
+    {
+        "question": "Câu 30: Chức năng chính của tế bào thần kinh đệm là gì?",
+        "options": [
+            "Dẫn truyền xung thần kinh",
+            "Hỗ trợ và bảo vệ các tế bào thần kinh",
+            "Sản xuất myelin",
+            "Tất cả các đáp án trên"
+        ],
+        "answer": "Hỗ trợ và bảo vệ các tế bào thần kinh"
+    },
+    {
+        "question": "Câu 31: Loại sụn nào sau đây có khả năng chịu lực tốt nhất?",
+        "options": [
+            "Sụn trong",
+            "Sụn chun",
+            "Sụn sợi",
+            "Tất cả các đáp án trên"
+        ],
+        "answer": "Sụn sợi"
+    },
+    {
+        "question": "Câu 32: Cấu trúc nào sau đây có vai trò quan trọng trong việc lọc máu và loại bỏ các chất thải?",
+        "options": [
+            "Gan",
+            "Thận",
+            "Lách",
+            "Phổi"
+        ],
+        "answer": "Thận"
+    },
+    {
+        "question": "Câu 33: Loại tế bào nào sau đây có khả năng sản xuất hormone insulin?",
+        "options": [
+            "Tế bào alpha của tuyến tụy",
+            "Tế bào beta của tuyến tụy",
+            "Tế bào delta của tuyến tụy",
+            "Tế bào PP của tuyến tụy"
+        ],
+        "answer": "Tế bào beta của tuyến tụy"
+    },
+    {
+        "question": "Câu 34: Chức năng chính của tế bào võng mạc là gì?",
+        "options": [
+            "Cảm nhận ánh sáng",
+            "Dẫn truyền xung thần kinh",
+            "Điều tiết thủy tinh thể",
+            "Bảo vệ mắt"
+        ],
+        "answer": "Cảm nhận ánh sáng"
+    },
+    {
+        "question": "Câu 35: Loại tế bào nào sau đây có khả năng sản xuất tinh trùng?",
+        "options": [
+            "Tế bào Sertoli",
+            "Tế bào Leydig",
+            "Tế bào mầm",
+            "Tế bào biểu mô"
+        ],
+        "answer": "Tế bào mầm"
+    },
+    {
+        "question": "Câu 36: Chức năng chính của tế bào Sertoli là gì?",
+        "options": [
+            "Sản xuất testosterone",
+            "Nuôi dưỡng và bảo vệ tế bào mầm",
+            "Sản xuất tinh trùng",
+            "Sản xuất estrogen"
+        ],
+        "answer": "Nuôi dưỡng và bảo vệ tế bào mầm"
+    },
+    {
+        "question": "Câu 37: Loại tế bào nào sau đây có khả năng sản xuất hormone glucagon?",
+        "options": [
+            "Tế bào alpha của tuyến tụy",
+            "Tế bào beta của tuyến tụy",
+            "Tế bào delta của tuyến tụy",
+            "Tế bào PP của tuyến tụy"
+        ],
+        "answer": "Tế bào alpha của tuyến tụy"
+    },
+    {
+        "question": "Câu 38: Cấu trúc nào sau đây có vai trò quan trọng trong việc điều hòa huyết áp?",
+        "options": [
+            "Tim",
+            "Thận",
+            "Phổi",
+            "Gan"
+        ],
+        "answer": "Thận"
+    },
+    {
+        "question": "Câu 39: Loại tế bào nào sau đây có khả năng sản xuất melanin?",
+        "options": [
+            "Tế bào sừng",
+            "Tế bào hắc tố",
+            "Tế bào Langerhans",
+            "Tế bào Merkel"
+        ],
+        "answer": "Tế bào hắc tố"
+    },
+    {
+        "question": "Câu 40: Chức năng chính của tế bào nội mô là gì?",
+        "options": [
+            "Tạo ra hàng rào bảo vệ",
+            "Điều hòa sự thẩm thấu",
+            "Tham gia vào quá trình đông máu",
+            "Tất cả các đáp án trên"
+        ],
+        "answer": "Tất cả các đáp án trên"
+    },
+    {
+        "question": "Câu 41: Loại mô nào sau đây có chứa nhiều sợi đàn hồi nhất?",
+        "options": [
+            "Mô biểu mô",
+            "Mô liên kết",
+            "Mô cơ",
+            "Mô thần kinh"
+        ],
+        "answer": "Mô liên kết"
+    },
+    {
+        "question": "Câu 42: Cấu trúc nào sau đây có vai trò quan trọng trong việc dẫn truyền âm thanh?",
+        "options": [
+            "Tai ngoài",
+            "Tai giữa",
+            "Tai trong",
+            "Tất cả các đáp án trên"
+        ],
+        "answer": "Tất cả các đáp án trên"
+    },
+    {
+        "question": "Câu 43: Loại tế bào nào sau đây có khả năng sản xuất dịch não tủy?",
+        "options": [
+            "Tế bào thần kinh",
+            "Tế bào thần kinh đệm",
+            "Tế bào biểu mô",
+            "Tế bào nội mô"
+        ],
+        "answer": "Tế bào thần kinh đệm"
+    },
+    {
+        "question": "Câu 44: Chức năng chính của tế bào xương là gì?",
+        "options": [
+            "Tạo ra chất nền xương",
+            "Hủy bỏ chất nền xương",
+            "Điều hòa nồng độ canxi trong máu",
+            "Tất cả các đáp án trên"
+        ],
+        "answer": "Tất cả các đáp án trên"
+    },
+    {
+        "question": "Câu 45: Loại tế bào nào sau đây có khả năng co bóp để tạo ra sự vận động của tim?",
+        "options": [
+            "Tế bào cơ trơn",
+            "Tế bào cơ vân",
+            "Tế bào cơ tim",
+            "Tế bào thần kinh"
+        ],
+        "answer": "Tế bào cơ tim"
+    },
+    {
+        "question": "Câu 46: Loại tế bào nào sau đây có khả năng sản xuất hormone testosterone?",
+        "options": [
+            "Tế bào Sertoli",
+            "Tế bào Leydig",
+            "Tế bào mầm",
+            "Tế bào biểu mô"
+        ],
+        "answer": "Tế bào Leydig"
+    },
+    {
+        "question": "Câu 47: Cấu trúc nào sau đây có vai trò quan trọng trong việc sản xuất hồng cầu?",
+        "options": [
+            "Tủy xương",
+            "Gan",
+            "Lách",
+            "Thận"
+        ],
+        "answer": "Tủy xương"
+    },
+    {
+        "question": "Câu 48: Loại tế bào nào sau đây có khả năng sản xuất dịch vị?",
+        "options": [
+            "Tế bào chính",
+            "Tế bào viền",
+            "Tế bào nhầy",
+            "Tế bào G"
+        ],
+        "answer": "Tế bào chính"
+    },
+    {
+        "question": "Câu 49: Chức năng chính của tế bào Purkinje là gì?",
+        "options": [
+            "Dẫn truyền xung thần kinh",
+            "Điều hòa vận động",
+            "Học tập và trí nhớ",
+            "Cảm nhận cảm giác"
+        ],
+        "answer": "Điều hòa vận động"
+    },
+    {
+        "question": "Câu 50: Loại tế bào nào sau đây có khả năng sản xuất sữa?",
+        "options": [
+            "Tế bào nang tuyến",
+            "Tế bào myoepithelial",
+            "Tế bào mỡ",
+            "Tế bào sợi"
+        ],
+        "answer": "Tế bào nang tuyến"
+    }
+]

@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Quiz App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            display: flex;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+        }
+        #timer {
+            font-size: 24px;
+            margin-bottom: 10px;
+            transition: color 0.3s;
+        }
+        .timer-warning {
+            color: red;
+            animation: pulse 1s infinite;
+        }
+        #score {
+            font-size: 24px;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        .progress-bar {
+            width: 100%;
+            height: 10px;
+            background-color: #e0e0e0;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        .progress-fill {
+            height: 100%;
+            background-color: #4CAF50;
+            border-radius: 5px;
+            transition: width 0.3s ease-in-out;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(5, 50px);
+            gap: 5px;
+            margin-right: 20px;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+        .grid div {
+            width: 50px;
+            height: 50px;
+            border: 1px solid #ccc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+        .grid div:hover {
+            background-color: #f5f5f5;
+            transform: scale(1.05);
+        }
+        .grid .answered {
+            background-color: #d4edda;
+        }
+        .grid .current {
+            background-color: #007bff;
+            color: white;
+        }
+        .question-panel {
+            width: 300px;
+            text-align: left;
+        }
+        .options {
+            margin-top: 20px;
+        }
+        .options button {
+            padding: 10px 20px;
+            margin: 5px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+        .options button:hover {
+            background-color: #45a049;
+            transform: scale(1.05);
+        }
+        .options button.selected {
+            background-color: #007bff;
+        }
+        .options button.correct {
+            background-color: #28a745;
+        }
+        .options button.incorrect {
+            background-color: #dc3545;
+        }
+        #result {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        #submitBtn {
+            margin-top: 20px;
+            transition: background-color 0.3s;
+        }
+        #submitBtn:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+        #startScreen {
+            text-align: center;
+        }
+        #startScreen select, #startScreen button {
+            padding: 10px;
+            margin: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+        #startScreen button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        #startScreen button:hover {
+            background-color: #45a049;
+        }
+        #startScreen button:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+        .hidden {
+            display: none;
+        }
+        @keyframes pulse {
+            0% { opacity: 1; }
+            50% { opacity: 0.7; }
+            100% { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <div id="startScreen">
+        <h2>Select Quiz Duration</h2>
+        <select id="timeSelect">
+            <option value="5">5 minutes</option>
+            <option value="10">10 minutes</option>
+            <option value="15">15 minutes</option>
+            <option value="20">20 minutes</option>
+            <option value="30" selected>30 minutes</option>
+        </select>
+        <br>
+        <button id="startBtn">Start Quiz</button>
+    </div>
+    <div class="container hidden" id="quizContainer">
+        <div>
+            <div id="timer">Time: 30:00</div>
+            <div id="score">Score: Not submitted</div>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+            <div class="grid" id="grid"></div>
+        </div>
+        <div class="question-panel">
+            <div id="question"></div>
+            <div class="options" id="options"></div>
+            <div id="result"></div>
+            <button id="submitBtn" onclick="submitQuiz()">Submit</button>
+        </div>
+    </div>
+    <audio id="selectSound" src="https://www.soundjay.com/buttons/button-3.mp3"></audio>
+    <audio id="submitSound" src="https://www.soundjay.com/buttons/button-4.mp3"></audio>
+
+    <script>
+        const timerDisplay = document.getElementById('timer');
+        const scoreDisplay = document.getElementById('score');
+        const grid = document.getElementById('grid');
+        const questionDisplay = document.getElementById('question');
+        const optionsDisplay = document.getElementById('options');
+        const resultDisplay = document.getElementById('result');
+        const submitBtn = document.getElementById('submitBtn');
+        const progressFill = document.getElementById('progressFill');
+        const selectSound = document.getElementById('selectSound');
+        const submitSound = document.getElementById('submitSound');
+        const startScreen = document.getElementById('startScreen');
+        const timeSelect = document.getElementById('timeSelect');
+        const startBtn = document.getElementById('startBtn');
+        const quizContainer = document.getElementById('quizContainer');
+
+        let time;
+        let questions = [];
+        let currentQuestionIndex = -1;
+        let selectedAnswers = JSON.parse(localStorage.getItem('quizAnswers')) || {};
+        let isSubmitted = JSON.parse(localStorage.getItem('quizSubmitted')) || false;
+        let countdown;
+
+        // Load questions from JSON
+        fetch('questions.json')
+            .then(response => response.json())
+            .then(data => {
+                questions = data;
+                grid.style.display = 'grid';
+                grid.style.gridTemplateColumns = 'repeat(5, 50px)';
+                grid.style.maxHeight = '200px';
+                grid.style.overflowY = 'auto';
+                for (let i = 0; i < questions.length; i++) {
+                    const div = document.createElement('div');
+                    div.textContent = i + 1;
+                    div.onclick = () => showQuestion(i);
+                    if (selectedAnswers[i]) {
+                        div.classList.add('answered');
+                    }
+                    grid.appendChild(div);
+                }
+                updateProgress();
+            })
+            .catch(error => console.error('Error loading questions:', error));
+
+        // Start quiz
+        startBtn.onclick = () => {
+            time = parseInt(timeSelect.value) * 60;
+            startScreen.classList.add('hidden');
+            quizContainer.classList.remove('hidden');
+            startTimer();
+            submitBtn.disabled = false; // Enable submit button immediately
+        };
+
+        // Timer
+        function startTimer() {
+            countdown = setInterval(() => {
+                let minutes = Math.floor(time / 60);
+                let seconds = time % 60;
+                timerDisplay.textContent = `Time: ${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+                if (time <= 300) {
+                    timerDisplay.classList.add('timer-warning');
+                }
+                if (time <= 0) {
+                    clearInterval(countdown);
+                    resultDisplay.textContent = 'Time is up!';
+                    submitBtn.disabled = false;
+                }
+                time--;
+            }, 1000);
+        }
+
+        function showQuestion(index) {
+            if (index >= 0 && index < questions.length) {
+                currentQuestionIndex = index;
+                const q = questions[index];
+                questionDisplay.textContent = q.question;
+                optionsDisplay.innerHTML = '';
+                q.options.forEach(option => {
+                    const button = document.createElement('button');
+                    button.textContent = option;
+                    button.onclick = isSubmitted ? null : () => selectAnswer(index, option);
+                    if (selectedAnswers[index] === option) {
+                        button.classList.add('selected');
+                        if (isSubmitted) {
+                            if (option === q.answer) {
+                                button.classList.add('correct');
+                            } else {
+                                button.classList.add('incorrect');
+                            }
+                        }
+                    }
+                    if (isSubmitted && option === q.answer) {
+                        button.classList.add('correct');
+                    }
+                    optionsDisplay.appendChild(button);
+                });
+                // Display result for the current question after submission
+                if (isSubmitted) {
+                    const isCorrect = selectedAnswers[index] === q.answer;
+                    if (isCorrect) {
+                        resultDisplay.textContent = `Correct!`;
+                        resultDisplay.style.color = 'green';
+                    } else {
+                        resultDisplay.textContent = `Incorrect. Your answer: ${selectedAnswers[index] || 'None'}. Correct answer: ${q.answer}`;
+                        resultDisplay.style.color = 'red';
+                    }
+                } else {
+                    resultDisplay.textContent = '';
+                }
+                document.querySelectorAll('.grid div').forEach(div => div.classList.remove('current'));
+                grid.children[index].classList.add('current');
+            }
+        }
+
+        function selectAnswer(index, answer) {
+            selectedAnswers[index] = answer;
+            localStorage.setItem('quizAnswers', JSON.stringify(selectedAnswers));
+            selectSound.play();
+            grid.children[index].classList.add('answered');
+            document.querySelectorAll('.options button').forEach(btn => {
+                btn.classList.toggle('selected', btn.textContent === answer);
+            });
+            updateProgress();
+        }
+
+        function updateProgress() {
+            const answeredCount = Object.keys(selectedAnswers).length;
+            const progressPercent = (answeredCount / questions.length) * 100;
+            progressFill.style.width = `${progressPercent}%`;
+        }
+
+        function submitQuiz() {
+            isSubmitted = true;
+            localStorage.setItem('quizSubmitted', JSON.stringify(isSubmitted));
+            let score = 0;
+            let resultText = 'Quiz submitted! Results:\n';
+            for (let i = 0; i < questions.length; i++) {
+                const isCorrect = selectedAnswers[i] === questions[i].answer;
+                if (selectedAnswers[i]) {
+                    // Question was answered
+                    if (isCorrect) {
+                        score++;
+                        resultText += `Question ${i + 1}: Correct\n`;
+                    } else {
+                        resultText += `Question ${i + 1}: Incorrect. Your answer: ${selectedAnswers[i]}. Correct answer: ${questions[i].answer}\n`;
+                    }
+                } else {
+                    // Question was not answered
+                    resultText += `Question ${i + 1}: Not answered. Correct answer: ${questions[i].answer}\n`;
+                }
+            }
+            scoreDisplay.textContent = `Score: ${score}/${questions.length}`;
+            resultText += `Your score: ${score} out of ${questions.length}`;
+            resultDisplay.textContent = resultText;
+            resultDisplay.style.color = 'blue';
+            submitBtn.disabled = true;
+            submitSound.play();
+            localStorage.removeItem('quizAnswers');
+            localStorage.removeItem('quizSubmitted');
+            clearInterval(countdown);
+            if (currentQuestionIndex >= 0) {
+                showQuestion(currentQuestionIndex);
+            }
+        }
+    </script>
+</body>
+</html>
