@@ -10,21 +10,26 @@
             display: flex;
             justify-content: center;
             align-items: flex-start;
-            height: 100vh;
+            min-height: 100vh;
             margin: 0;
             background-color: #f0f0f0;
+            font-size: 16px; /* Base font size for mobile */
         }
         .container {
             display: flex;
+            flex-direction: column; /* Stack elements vertically on mobile */
             background: white;
-            padding: 20px;
+            padding: 1rem;
             border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            max-width: 800px;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 100vw; /* Full width on mobile */
+            box-sizing: border-box;
         }
         #timer {
-            font-size: 24px;
-            margin-bottom: 10px;
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+            text-align: center;
             transition: color 0.3s;
         }
         .timer-warning {
@@ -32,16 +37,17 @@
             animation: pulse 1s infinite;
         }
         #score {
-            font-size: 24px;
-            margin-bottom: 10px;
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
             font-weight: bold;
+            text-align: center;
         }
         .progress-bar {
             width: 100%;
-            height: 10px;
+            height: 8px;
             background-color: #e0e0e0;
             border-radius: 5px;
-            margin-bottom: 10px;
+            margin-bottom: 0.5rem;
         }
         .progress-fill {
             height: 100%;
@@ -51,20 +57,22 @@
         }
         .grid {
             display: grid;
-            grid-template-columns: repeat(5, 50px);
-            gap: 5px;
-            margin-right: 20px;
-            max-height: 200px;
+            grid-template-columns: repeat(auto-fit, minmax(40px, 1fr)); /* Responsive grid */
+            gap: 0.3rem;
+            margin-bottom: 1rem;
+            max-height: 100px; /* Reduced height for mobile */
             overflow-y: auto;
+            padding: 0.5rem;
         }
         .grid div {
-            width: 50px;
-            height: 50px;
+            width: 100%;
+            height: 40px;
             border: 1px solid #ccc;
             display: flex;
             align-items: center;
             justify-content: center;
             cursor: pointer;
+            font-size: 0.9rem;
             transition: background-color 0.3s, transform 0.2s;
         }
         .grid div:hover {
@@ -79,25 +87,30 @@
             color: white;
         }
         .question-panel {
-            width: 300px;
+            width: 100%;
             text-align: left;
+            padding: 0.5rem;
         }
         .options {
-            margin-top: 20px;
+            margin-top: 1rem;
+            display: flex;
+            flex-direction: column; /* Stack buttons vertically */
+            gap: 0.5rem;
         }
         .options button {
-            padding: 10px 20px;
-            margin: 5px;
+            padding: 0.8rem;
+            font-size: 1rem;
             cursor: pointer;
             background-color: #4CAF50;
             color: white;
             border: none;
             border-radius: 5px;
             transition: background-color 0.3s, transform 0.2s;
+            width: 100%; /* Full width buttons */
         }
         .options button:hover {
             background-color: #45a049;
-            transform: scale(1.05);
+            transform: scale(1.02);
         }
         .options button.selected {
             background-color: #007bff;
@@ -109,11 +122,20 @@
             background-color: #dc3545;
         }
         #result {
-            margin-top: 10px;
+            margin-top: 0.5rem;
             font-weight: bold;
+            font-size: 0.9rem;
+            text-align: center;
         }
         #submitBtn {
-            margin-top: 20px;
+            margin-top: 1rem;
+            padding: 0.8rem;
+            font-size: 1rem;
+            width: 100%;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
             transition: background-color 0.3s;
         }
         #submitBtn:disabled {
@@ -122,12 +144,16 @@
         }
         #startScreen {
             text-align: center;
+            padding: 1rem;
+            width: 100%;
         }
         #startScreen select, #startScreen button {
-            padding: 10px;
-            margin: 10px;
-            font-size: 16px;
+            padding: 0.8rem;
+            margin: 0.5rem 0;
+            font-size: 1rem;
             border-radius: 5px;
+            width: 100%;
+            box-sizing: border-box;
         }
         #startScreen button {
             background-color: #4CAF50;
@@ -149,6 +175,27 @@
             0% { opacity: 1; }
             50% { opacity: 0.7; }
             100% { opacity: 1; }
+        }
+        /* Media query for smaller screens */
+        @media (max-width: 600px) {
+            body {
+                font-size: 14px;
+            }
+            .container {
+                padding: 0.5rem;
+            }
+            .grid {
+                grid-template-columns: repeat(auto-fit, minmax(35px, 1fr));
+                max-height: 80px;
+            }
+            .grid div {
+                height: 35px;
+                font-size: 0.8rem;
+            }
+            .options button, #submitBtn {
+                padding: 0.6rem;
+                font-size: 0.9rem;
+            }
         }
     </style>
 </head>
@@ -213,8 +260,8 @@
             .then(data => {
                 questions = data;
                 grid.style.display = 'grid';
-                grid.style.gridTemplateColumns = 'repeat(5, 50px)';
-                grid.style.maxHeight = '200px';
+                grid.style.gridTemplateColumns = 'repeat(auto-fit, minmax(40px, 1fr))';
+                grid.style.maxHeight = '100px';
                 grid.style.overflowY = 'auto';
                 for (let i = 0; i < questions.length; i++) {
                     const div = document.createElement('div');
@@ -235,7 +282,7 @@
             startScreen.classList.add('hidden');
             quizContainer.classList.remove('hidden');
             startTimer();
-            submitBtn.disabled = false; // Enable submit button immediately
+            submitBtn.disabled = false;
         };
 
         // Timer
@@ -281,7 +328,6 @@
                     }
                     optionsDisplay.appendChild(button);
                 });
-                // Display result for the current question after submission
                 if (isSubmitted) {
                     const isCorrect = selectedAnswers[index] === q.answer;
                     if (isCorrect) {
@@ -324,7 +370,6 @@
             for (let i = 0; i < questions.length; i++) {
                 const isCorrect = selectedAnswers[i] === questions[i].answer;
                 if (selectedAnswers[i]) {
-                    // Question was answered
                     if (isCorrect) {
                         score++;
                         resultText += `Question ${i + 1}: Correct\n`;
@@ -332,12 +377,10 @@
                         resultText += `Question ${i + 1}: Incorrect. Your answer: ${selectedAnswers[i]}. Correct answer: ${questions[i].answer}\n`;
                     }
                 } else {
-                    // Question was not answered
                     resultText += `Question ${i + 1}: Not answered. Correct answer: ${questions[i].answer}\n`;
                 }
             }
             scoreDisplay.textContent = `Score: ${score}/${questions.length}`;
-            resultText += `Your score: ${score} out of ${questions.length}`;
             resultDisplay.textContent = resultText;
             resultDisplay.style.color = 'blue';
             submitBtn.disabled = true;
