@@ -1503,5 +1503,765 @@
   ],
   "answer": "Mô liên kết"
 }
-    ]
-}
+    ],
+    "part4": [
+  {
+    "question": "Câu 1: Đặc điểm nào đúng với mô liên kết chính thức?",
+    "options": ["A. Các tế bào sắp xếp sát nhau", "B. Có khoảng gian bào rộng", "C. Không chứa chất căn bản", "D. Không chứa mạch máu"],
+    "answer": "B. Có khoảng gian bào rộng"
+  },
+  {
+    "question": "Câu 2: Tế bào nào trong mô liên kết có khả năng di động mạnh?",
+    "options": ["A. Đại thực bào", "B. Nguyên bào sợi", "C. Tế bào mỡ", "D. Tương bào"],
+    "answer": "A. Đại thực bào"
+  },
+  {
+    "question": "Câu 3: Tế bào mast (mastocyte) có vai trò chính gì?",
+    "options": ["A. Tiết insulin", "B. Tiết heparin và histamine", "C. Tổng hợp kháng thể", "D. Tạo collagen"],
+    "answer": "B. Tiết heparin và histamine"
+  },
+  {
+    "question": "Câu 4: Thành phần nào KHÔNG thuộc nhóm tế bào lưu trú của mô liên kết?",
+    "options": ["A. Tế bào sợi", "B. Tế bào trung mô", "C. Đại thực bào", "D. Tế bào nội mô"],
+    "answer": "C. Đại thực bào"
+  },
+  {
+    "question": "Câu 5: Đặc điểm nào SAI về tế bào sợi?",
+    "options": ["A. Là nguyên bào sợi biệt hóa, hình thoi dài", "B. Chứa không bào, hạt lipid, glycogen", "C. Tổng hợp collagen mạnh", "D. Có khả năng phân chia mạnh"],
+    "answer": "D. Có khả năng phân chia mạnh"
+  },
+  {
+    "question": "Câu 6: Trong các loại collagen, loại nào phổ biến nhất trong cơ thể?",
+    "options": ["A. Type I", "B. Type II", "C. Type III", "D. Type IV"],
+    "answer": "A. Type I"
+  },
+  {
+    "question": "Câu 7: Mô sụn có đặc điểm nào sau đây?",
+    "options": ["A. Có nhiều mạch máu riêng", "B. Có thần kinh cảm giác", "C. Dinh dưỡng nhờ màng sụn hoặc dịch khớp", "D. Tái tạo nhanh chóng"],
+    "answer": "C. Dinh dưỡng nhờ màng sụn hoặc dịch khớp"
+  },
+  {
+    "question": "Câu 8: Sụn được chia thành mấy loại?",
+    "options": ["A. 2", "B. 3", "C. 4", "D. 5"],
+    "answer": "B. 3"
+  },
+  {
+    "question": "Câu 9: Tế bào xương trưởng thành chính thức, nằm vùi hoàn toàn trong chất gian bào gọi là:",
+    "options": ["A. Nguyên bào sợi", "B. Tạo cốt bào", "C. Hủy cốt bào", "D. Cốt bào"],
+    "answer": "D. Cốt bào"
+  },
+  {
+    "question": "Câu 10: Thứ tự tạo xương nguyên phát đúng là:",
+    "options": ["A. Muối canxi ngấm → Trung tâm xương hình thành → TB trung mô sinh sản mạnh → Tạo cốt bào tạo chất căn bản xương", "B. TB trung mô sinh sản mạnh → Muối canxi ngấm → Trung tâm xương hình thành → Tạo cốt bào tạo chất căn bản xương", "C. TB trung mô sinh sản mạnh → Trung tâm xương hình thành → Tạo cốt bào tạo chất căn bản xương → Muối canxi ngấm", "D. Muối canxi ngấm → TB trung mô sinh sản mạnh → Trung tâm xương hình thành → Tạo cốt bào tạo chất căn bản xương"],
+    "answer": "C. TB trung mô sinh sản mạnh → Trung tâm xương hình thành → Tạo cốt bào tạo chất căn bản xương → Muối canxi ngấm"
+  },
+  {
+    "question": "Câu 11: Chất căn bản của mô liên kết có đặc điểm nào?",
+    "options": ["A. Rắn chắc, có nhiều muối khoáng", "B. Ưa nước, dạng chất đông, vô định hình", "C. Chứa nhiều mạch máu nuôi dưỡng", "D. Có màu vàng đục dễ quan sát"],
+    "answer": "B. Ưa nước, dạng chất đông, vô định hình"
+  },
+  {
+    "question": "Câu 12: Loại sợi liên kết nào có tính đàn hồi cao?",
+    "options": ["A. Sợi tạo keo", "B. Sợi lưới", "C. Sợi chun", "D. Sợi võng"],
+    "answer": "C. Sợi chun"
+  },
+  {
+    "question": "Câu 13: Sợi lưới có đặc điểm gì nổi bật?",
+    "options": ["A. Cấu tạo từ elastin", "B. Có protein collagen II, dễ ngấm bạc", "C. Không phân nhánh, dày 1–3 µm", "D. Không bao giờ có hiện tượng vôi hóa"],
+    "answer": "B. Có protein collagen II, dễ ngấm bạc"
+  },
+  {
+    "question": "Câu 14: Tế bào nào tổng hợp kháng thể, tham gia miễn dịch dịch thể?",
+    "options": ["A. Tế bào mast", "B. Đại thực bào", "C. Tương bào", "D. Nguyên bào sợi"],
+    "answer": "C. Tương bào"
+  },
+  {
+    "question": "Câu 15: Tế bào nào có khả năng tiết collagenase, elastase và interferon?",
+    "options": ["A. Đại thực bào", "B. Mast bào", "C. Tương bào", "D. Tế bào mỡ"],
+    "answer": "A. Đại thực bào"
+  },
+  {
+    "question": "Câu 16: Mô mỡ nâu khác mô mỡ trắng ở điểm nào?",
+    "options": ["A. Chứa một hạt mỡ lớn duy nhất", "B. Không có màng riêng", "C. Chứa nhiều hạt mỡ nhỏ xen kẽ ti thể", "D. Không có nguồn gốc từ trung mô"],
+    "answer": "C. Chứa nhiều hạt mỡ nhỏ xen kẽ ti thể"
+  },
+  {
+    "question": "Câu 17: Tế bào nào có khả năng biệt hóa thành nguyên bào sợi, tế bào mỡ và cơ trơn, giúp tái tạo mao mạch?",
+    "options": ["A. Nguyên bào sợi", "B. Tế bào trung mô", "C. Chu bào", "D. Tế bào nội mô"],
+    "answer": "C. Chu bào"
+  },
+  {
+    "question": "Câu 18: Chức năng chính của tế bào nội mô là:",
+    "options": ["A. Tiết kháng thể", "B. Trao đổi chất và khí giữa máu – mô", "C. Tạo collagen và elastin", "D. Tham gia phản ứng dị ứng"],
+    "answer": "B. Trao đổi chất và khí giữa máu – mô"
+  },
+  {
+    "question": "Câu 19: Thành phần hữu cơ chiếm khoảng bao nhiêu % trong mô xương?",
+    "options": ["A. 10%", "B. 20%", "C. 30%", "D. 70%"],
+    "answer": "C. 30%"
+  },
+  {
+    "question": "Câu 20: Lớp cấu tạo chủ yếu bởi xương Havers đặc nằm ở đâu trong thân xương dài?",
+    "options": ["A. Lớp ngoài", "B. Lớp giữa", "C. Lớp trong", "D. Lớp sụn"],
+    "answer": "B. Lớp giữa"
+  },
+  {
+    "question": "Câu 21: Đại thực bào có nguồn gốc từ loại tế bào nào?",
+    "options": ["A. Tế bào trung mô", "B. Mono bào", "C. Tương bào", "D. Nguyên bào sợi"],
+    "answer": "B. Mono bào"
+  },
+  {
+    "question": "Câu 22: Trong các loại tế bào sau, tế bào nào thuộc nhóm di trú của mô liên kết?",
+    "options": ["A. Tế bào sợi", "B. Tế bào trung mô", "C. Mast bào", "D. Tế bào nội mô"],
+    "answer": "C. Mast bào"
+  },
+  {
+    "question": "Câu 23: Tế bào nào có nhân hình cầu, chất nhiễm sắc phân bố kiểu “bánh xe”?",
+    "options": ["A. Nguyên bào sợi", "B. Tương bào", "C. Mast bào", "D. Đại thực bào"],
+    "answer": "B. Tương bào"
+  },
+  {
+    "question": "Câu 24: Sợi tạo keo (collagen) khi đun sôi sẽ giải phóng chất gì?",
+    "options": ["A. Elastin", "B. Keratin", "C. Chất keo", "D. Melanin"],
+    "answer": "C. Chất keo"
+  },
+  {
+    "question": "Câu 25: Sụn chun có đặc điểm nào sau đây?",
+    "options": ["A. Nhiều sợi chun, không bao giờ vôi hóa", "B. Nhiều sợi collagen xếp song song", "C. Không có màng sụn", "D. Chứa nhiều mạch máu"],
+    "answer": "A. Nhiều sợi chun, không bao giờ vôi hóa"
+  },
+  {
+    "question": "Câu 26: Ở sụn khớp, tế bào sụn được nuôi dưỡng bằng cách nào?",
+    "options": ["A. Mạch máu trong mô sụn", "B. Thần kinh cảm giác", "C. Dịch khớp và mô xương bên dưới", "D. Dịch ngoại bào"],
+    "answer": "C. Dịch khớp và mô xương bên dưới"
+  },
+  {
+    "question": "Câu 27: Loại tế bào nào trong mô xương có nhiều nhân, bào tương ưa bazơ nhạt, tiết enzyme hủy xương?",
+    "options": ["A. Cốt bào", "B. Tạo cốt bào", "C. Hủy cốt bào", "D. Nguyên bào sợi"],
+    "answer": "C. Hủy cốt bào"
+  },
+  {
+    "question": "Câu 28: Chức năng chính của tế bào sắc tố trong mô liên kết là:",
+    "options": ["A. Tạo elastin", "B. Tổng hợp melanin", "C. Dự trữ lipid", "D. Tham gia phản ứng dị ứng"],
+    "answer": "B. Tổng hợp melanin"
+  },
+  {
+    "question": "Câu 29: Trong cấu tạo mô học xương dẹt (vòm sọ), lớp nào nằm giữa hai lớp xương đặc?",
+    "options": ["A. Xương Havers", "B. Xương xốp", "C. Xương cốt mạc", "D. Xương màng"],
+    "answer": "B. Xương xốp"
+  },
+  {
+    "question": "Câu 30: Tế bào mô liên kết nào đóng vai trò “tế bào gốc đa năng”, có nhiều ở thời kỳ phôi thai?",
+    "options": ["A. Nguyên bào sợi", "B. Tế bào trung mô", "C. Chu bào", "D. Tế bào mỡ"],
+    "answer": "B. Tế bào trung mô"
+  },
+  {
+    "question": "Câu 31: Nguyên bào sợi có chức năng chính là gì?",
+    "options": ["A. Tiết histamine", "B. Tổng hợp collagen, elastin và glycoprotein", "C. Trình diện kháng nguyên", "D. Dự trữ năng lượng"],
+    "answer": "B. Tổng hợp collagen, elastin và glycoprotein"
+  },
+  {
+    "question": "Câu 32: Tế bào nào trong mô liên kết có khả năng phân chia mạnh, bào tương ưa bazơ nhạt và có thể di động yếu?",
+    "options": ["A. Nguyên bào sợi", "B. Đại thực bào", "C. Mast bào", "D. Tương bào"],
+    "answer": "A. Nguyên bào sợi"
+  },
+  {
+    "question": "Câu 33: Hệ thống thực bào đơn nhân KHÔNG bao gồm loại tế bào nào sau đây?",
+    "options": ["A. Tế bào Kupffer", "B. Đại thực bào phế nang", "C. Tế bào Langerhans", "D. Nguyên bào sợi"],
+    "answer": "D. Nguyên bào sợi"
+  },
+  {
+    "question": "Câu 34: Chu bào có vị trí chủ yếu ở đâu?",
+    "options": ["A. Trong hốc xương", "B. Sát màng đáy của mao mạch", "C. Trong mô mỡ trắng", "D. Dưới biểu bì da"],
+    "answer": "B. Sát màng đáy của mao mạch"
+  },
+  {
+    "question": "Câu 35: Tế bào nào trong mô liên kết đóng vai trò quan trọng trong phản ứng dị ứng và viêm?",
+    "options": ["A. Tế bào mast", "B. Tương bào", "C. Đại thực bào", "D. Nguyên bào sợi"],
+    "answer": "A. Tế bào mast"
+  },
+  {
+    "question": "Câu 36: Trong các loại sợi liên kết, loại nào gặp nhiều trong cơ quan tạo máu, mô mỡ, gan, phổi?",
+    "options": ["A. Sợi tạo keo", "B. Sợi lưới", "C. Sợi chun", "D. Sợi võng"],
+    "answer": "B. Sợi lưới"
+  },
+  {
+    "question": "Câu 37: Loại mô liên kết đặc biệt nào không có mạch máu và thần kinh riêng?",
+    "options": ["A. Mô mỡ", "B. Mô sụn", "C. Mô xương", "D. Mô lưới"],
+    "answer": "B. Mô sụn"
+  },
+  {
+    "question": "Câu 38: Trong cấu tạo mô học của xương dài, lớp mỏng nhất là lớp nào?",
+    "options": ["A. Lớp ngoài (cốt mạc ngoài)", "B. Lớp giữa (xương Havers đặc)", "C. Lớp trong (cơ bản trong)", "D. Lớp sụn"],
+    "answer": "C. Lớp trong (cơ bản trong)"
+  },
+  {
+    "question": "Câu 39: Màng xương có mấy lớp cấu tạo chính?",
+    "options": ["A. 1", "B. 2", "C. 3", "D. 4"],
+    "answer": "B. 2"
+  },
+  {
+    "question": "Câu 40: Loại xương nào trong cơ thể có cấu tạo gồm 3 lớp: xương đặc ngoài, xương xốp giữa, xương đặc trong?",
+    "options": ["A. Xương dài", "B. Xương ngắn", "C. Xương dẹt (vòm sọ)", "D. Xương không đều"],
+    "answer": "C. Xương dẹt (vòm sọ)"
+  },
+  {
+    "question": "Câu 41: Tế bào mô liên kết nào có khả năng thực bào yếu, chủ yếu tổng hợp chất nền ngoại bào?",
+    "options": ["A. Nguyên bào sợi", "B. Đại thực bào", "C. Mast bào", "D. Tương bào"],
+    "answer": "A. Nguyên bào sợi"
+  },
+  {
+    "question": "Câu 42: Đại thực bào có chức năng quan trọng nào?",
+    "options": ["A. Tổng hợp kháng thể", "B. Trình diện kháng nguyên cho lympho T, B", "C. Tiết insulin", "D. Tiết melanin"],
+    "answer": "B. Trình diện kháng nguyên cho lympho T, B"
+  },
+  {
+    "question": "Câu 43: Trong mô liên kết, tế bào nào tập trung thành nhóm tạo nên mô mỡ?",
+    "options": ["A. Nguyên bào sợi", "B. Tế bào mỡ", "C. Chu bào", "D. Tương bào"],
+    "answer": "B. Tế bào mỡ"
+  },
+  {
+    "question": "Câu 44: Tế bào nào trong mô liên kết có nguồn gốc từ mào thần kinh?",
+    "options": ["A. Tế bào trung mô", "B. Tế bào sắc tố", "C. Nguyên bào sợi", "D. Mast bào"],
+    "answer": "B. Tế bào sắc tố"
+  },
+  {
+    "question": "Câu 45: Lysosome chứa:",
+    "options": ["A. Enzyme tiêu hóa", "B. DNA", "C. RNA", "D. Hemoglobin"],
+    "answer": "A. Enzyme tiêu hóa"
+  },
+  {
+    "question": "Câu 46: Trung thể (centrosome) tham gia chủ yếu vào:",
+    "options": ["A. Tiêu hóa nội bào", "B. Phân chia tế bào", "C. Tổng hợp protein", "D. Vận chuyển oxy"],
+    "answer": "B. Phân chia tế bào"
+  },
+  {
+    "question": "Câu 47: Màng sinh chất có mô hình cấu trúc gọi là:",
+    "options": ["A. Khảm động", "B. Tĩnh bất động", "C. Xơ cứng", "D. Đặc khít"],
+    "answer": "A. Khảm động"
+  },
+  {
+    "question": "Câu 48: Kênh ion phụ thuộc điện thế có vai trò:",
+    "options": ["A. Truyền tín hiệu thần kinh", "B. Tiêu hóa protein", "C. Sinh năng lượng", "D. Tổng hợp DNA"],
+    "answer": "A. Truyền tín hiệu thần kinh"
+  },
+  {
+    "question": "Câu 49: Thụ thể gắn protein G thuộc loại:",
+    "options": ["A. Thụ thể nội bào", "B. Thụ thể màng", "C. Enzyme bào tương", "D. Kênh ion"],
+    "answer": "B. Thụ thể màng"
+  },
+  {
+    "question": "Câu 50: DNA nằm chủ yếu ở đâu trong tế bào nhân thực?",
+    "options": ["A. Nhân", "B. Ribosome", "C. Lưới nội chất trơn", "D. Bộ Golgi"],
+    "answer": "A. Nhân"
+  }
+],
+  "part5": 
+    [
+  {
+    "question": "Câu 1: Mô liên kết chủ yếu có nguồn gốc từ:",
+    "options": ["Ngoại bì", "Nội bì", "Trung bì", "Tủy xương"],
+    "answer": "Trung bì"
+  },
+  {
+    "question": "Câu 2: Thành phần nào KHÔNG thuộc chất căn bản của mô liên kết?",
+    "options": ["Glycosaminoglycan", "Proteoglycan", "Collagen", "Glycoprotein"],
+    "answer": "Collagen"
+  },
+  {
+    "question": "Câu 3: Loại sợi liên kết nào không phân nhánh, dày 1–3 µm, dễ nhuộm với thuốc nhuộm thường?",
+    "options": ["Sợi lưới", "Sợi chun", "Sợi tạo keo (collagen)", "Sợi võng"],
+    "answer": "Sợi tạo keo (collagen)"
+  },
+  {
+    "question": "Câu 4: Sợi nào tạo thành các bó song song trong sụn xơ?",
+    "options": ["Sợi chun", "Sợi lưới", "Collagen", "Keratin"],
+    "answer": "Collagen"
+  },
+  {
+    "question": "Câu 5: Trong quá trình viêm, tế bào nào tiết cytokine và các chất trung gian hóa học?",
+    "options": ["Tương bào", "Mast bào", "Cốt bào", "Tế bào sắc tố"],
+    "answer": "Mast bào"
+  },
+  {
+    "question": "Câu 6: Tế bào nào đảm bảo miễn dịch dịch thể bằng cách tổng hợp kháng thể?",
+    "options": ["Đại thực bào", "Tương bào", "Mast bào", "Nguyên bào sợi"],
+    "answer": "Tương bào"
+  },
+  {
+    "question": "Câu 7: Loại tế bào mô liên kết nào thường gặp trong gân, cơ, màng bao xơ của nhiều cơ quan?",
+    "options": ["Tế bào sợi", "Nguyên bào sợi", "Tương bào", "Mast bào"],
+    "answer": "Tế bào sợi"
+  },
+  {
+    "question": "Câu 8: Cốt bào chiếm khoảng bao nhiêu phần trăm trọng lượng chung của mô xương?",
+    "options": ["5%", "10%", "20%", "30%"],
+    "answer": "10%"
+  },
+  {
+    "question": "Câu 9: Chất căn bản của mô xương chiếm bao nhiêu % trọng lượng khô?",
+    "options": ["10–15%", "20–30%", "40–50%", "60–70%"],
+    "answer": "20–30%"
+  },
+  {
+    "question": "Câu 10: Trong cấu tạo mô học xương dài, phần trung tâm của đầu xương chủ yếu là:",
+    "options": ["Xương đặc Havers", "Xương xốp", "Màng xương", "Sụn khớp"],
+    "answer": "Xương xốp"
+  },
+  {
+    "question": "Câu 11: Loại mô liên kết nào chiếm ưu thế bởi chất gian bào ngấm muối canxi, giúp cứng chắc?",
+    "options": ["Mô mỡ", "Mô sụn", "Mô xương", "Mô lưới"],
+    "answer": "Mô xương"
+  },
+  {
+    "question": "Câu 12: Trong thành phần hóa học của mô xương, chất vô cơ chiếm khoảng:",
+    "options": ["30%", "50%", "60%", "70%"],
+    "answer": "70%"
+  },
+  {
+    "question": "Câu 13: Tạo cốt bào có đặc điểm nào sau đây?",
+    "options": ["Nhiều nhân, có khả năng hủy xương", "Bào tương ưa bazơ, tiết chất nền xương", "Không có khả năng phân chia", "Chỉ tồn tại ở thời kỳ phôi thai"],
+    "answer": "Bào tương ưa bazơ, tiết chất nền xương"
+  },
+  {
+    "question": "Câu 14: Loại tế bào nào nằm trong ổ xương và nối với nhau bằng vi quản xương?",
+    "options": ["Tạo cốt bào", "Cốt bào", "Hủy cốt bào", "Chu bào"],
+    "answer": "Cốt bào"
+  },
+  {
+    "question": "Câu 15: Hủy cốt bào có nguồn gốc từ sự hợp nhất của:",
+    "options": ["Nguyên bào sợi", "Mono bào", "Tế bào mast", "Tương bào"],
+    "answer": "Mono bào"
+  },
+  {
+    "question": "Câu 16: Quá trình tạo xương và hủy xương diễn ra như thế nào?",
+    "options": ["Tạo xương và hủy xương xảy ra luân phiên, không đồng thời", "Tạo xương diễn ra mạnh, hủy xương ít khi xảy ra", "Tạo xương và hủy xương diễn ra đồng thời", "Xương trưởng thành chỉ hủy mà không tạo mới"],
+    "answer": "Tạo xương và hủy xương diễn ra đồng thời"
+  },
+  {
+    "question": "Câu 17: Trong các loại sụn, loại nào thường có ở khớp mu và giữa các đốt sống?",
+    "options": ["Sụn trong", "Sụn chun", "Sụn xơ", "Sụn mầm"],
+    "answer": "Sụn xơ"
+  },
+  {
+    "question": "Câu 18: Trong mô liên kết, loại sợi nào giúp chống đỡ tế bào biểu bì da (sát dưới màng đáy)?",
+    "options": ["Sợi tạo keo", "Sợi chun", "Sợi lưới", "Sợi võng"],
+    "answer": "Sợi lưới"
+  },
+  {
+    "question": "Câu 19: Loại mô liên kết đặc biệt nào có dinh dưỡng chủ yếu từ màng sụn?",
+    "options": ["Mô mỡ", "Mô sụn", "Mô xương", "Mô lưới"],
+    "answer": "Mô sụn"
+  },
+  {
+    "question": "Câu 20: Xương dẹt ở vòm sọ có thể có xoang chứa khí, xoang này hình thành do:",
+    "options": ["Sự tăng sinh mạnh mẽ của cốt bào", "Sự tích tụ dịch ngoại bào", "Sự tiêu hủy phần xương trung tâm", "Sự xâm nhập của mô liên kết lỏng lẻo"],
+    "answer": "Sự tiêu hủy phần xương trung tâm"
+  },
+  {
+    "question": "Câu 21: Mô liên kết đóng vai trò nào sau đây?",
+    "options": ["Chỉ bảo vệ cơ thể", "Chỉ tạo hình dạng cơ thể", "Liên kết, dinh dưỡng, trao đổi chất, bảo vệ, tổng hợp chất", "Chỉ tham gia vào trao đổi khí"],
+    "answer": "Liên kết, dinh dưỡng, trao đổi chất, bảo vệ, tổng hợp chất"
+  },
+  {
+    "question": "Câu 22: Trong các loại mô liên kết, loại nào được coi là “tế bào gốc đa năng”?",
+    "options": ["Tương bào", "Tế bào trung mô", "Mast bào", "Đại thực bào"],
+    "answer": "Tế bào trung mô"
+  },
+  {
+    "question": "Câu 23: Loại sợi nào trong mô liên kết có khả năng tạo sức căng và chịu lực tốt nhất?",
+    "options": ["Sợi lưới", "Sợi chun", "Sợi tạo keo (collagen)", "Sợi võng"],
+    "answer": "Sợi tạo keo (collagen)"
+  },
+  {
+    "question": "Câu 24: Mô sụn KHÔNG có đặc điểm nào sau đây?",
+    "options": ["Không có mạch máu riêng", "Không có thần kinh riêng", "Có khả năng tái tạo nhanh chóng", "Có tế bào sụn nằm trong ổ sụn"],
+    "answer": "Có khả năng tái tạo nhanh chóng"
+  },
+  {
+    "question": "Câu 25: Trong ba loại sụn, loại nào có nguy cơ vôi hóa theo tuổi?",
+    "options": ["Sụn chun", "Sụn xơ", "Sụn trong", "Cả A và B"],
+    "answer": "Sụn trong"
+  },
+  {
+    "question": "Câu 26: Đại thực bào có mặt nhiều nhất ở đâu?",
+    "options": ["Tủy xương", "Mô liên kết vùng viêm và cơ quan miễn dịch", "Biểu bì da", "Gân và cơ"],
+    "answer": "Mô liên kết vùng viêm và cơ quan miễn dịch"
+  },
+  {
+    "question": "Câu 27: Mast bào có hạt bào tương chứa chất gì quan trọng trong phản ứng dị ứng?",
+    "options": ["Melanin", "Collagenase", "Histamine", "Elastin"],
+    "answer": "Histamine"
+  },
+  {
+    "question": "Câu 28: Chức năng chính của tế bào mỡ là gì?",
+    "options": ["Tổng hợp collagen", "Dự trữ và tạo năng lượng", "Trình diện kháng nguyên", "Tiết cytokine"],
+    "answer": "Dự trữ và tạo năng lượng"
+  },
+  {
+    "question": "Câu 29: Trong xương dài, mặt khớp được bao phủ bởi loại mô nào?",
+    "options": ["Xương xốp", "Màng xương", "Sụn trong", "Sụn xơ"],
+    "answer": "Sụn trong"
+  },
+  {
+    "question": "Câu 30: Trong xương dẹt, lớp ngoài và lớp trong đều là:",
+    "options": ["Xương xốp", "Xương đặc", "Màng xương", "Mô sụn"],
+    "answer": "Xương đặc"
+  },
+  {
+    "question": "Câu 31: Trong quá trình tái tạo mô liên kết, tế bào nào đóng vai trò chính?",
+    "options": ["Tương bào", "Nguyên bào sợi", "Mast bào", "Tế bào mỡ"],
+    "answer": "Nguyên bào sợi"
+  },
+  {
+    "question": "Câu 32: Loại tế bào nào trong mô liên kết có nhân hình cầu, lệch sang một bên và thường xuất hiện nhiều trong cơ quan bạch huyết?",
+    "options": ["Tương bào", "Mast bào", "Đại thực bào", "Chu bào"],
+    "answer": "Tương bào"
+  },
+  {
+    "question": "Câu 33: Chức năng chính của tế bào sắc tố là:",
+    "options": ["Tổng hợp melanin", "Tiết cytokine", "Dự trữ lipid", "Trình diện kháng nguyên"],
+    "answer": "Tổng hợp melanin"
+  },
+  {
+    "question": "Câu 34: Trong xương, collagen chiếm khoảng bao nhiêu % các chất hữu cơ?",
+    "options": ["50%", "70%", "80%", "95%"],
+    "answer": "95%"
+  },
+  {
+    "question": "Câu 35: Loại tế bào nào của mô xương được hình thành từ sự hợp nhất của nhiều mono bào?",
+    "options": ["Tạo cốt bào", "Cốt bào", "Hủy cốt bào", "Nguyên bào sợi"],
+    "answer": "Hủy cốt bào"
+  },
+  {
+    "question": "Câu 36: Trong cấu tạo mô học xương dài, màng xương gồm mấy lớp?",
+    "options": ["1 lớp", "2 lớp", "3 lớp", "4 lớp"],
+    "answer": "2 lớp"
+  },
+  {
+    "question": "Câu 37: Ở mô sụn, tế bào sụn nằm trong cấu trúc đặc biệt gọi là:",
+    "options": ["Ổ sụn", "Ổ xương", "Vi quản sụn", "Nang sụn"],
+    "answer": "Ổ sụn"
+  },
+  {
+    "question": "Câu 38: Mô nào dưới đây KHÔNG phải là mô liên kết đặc biệt?",
+    "options": ["Mô sụn", "Mô xương", "Mô mỡ", "Mô biểu bì"],
+    "answer": "Mô biểu bì"
+  },
+  {
+    "question": "Câu 39: Chức năng nào sau đây KHÔNG phải của đại thực bào?",
+    "options": ["Thực bào", "Trình diện kháng nguyên", "Tổng hợp interferon", "Tiết histamine"],
+    "answer": "Tiết histamine"
+  },
+  {
+    "question": "Câu 40: Trong các loại xương, xương nào có cấu tạo giống với đầu xương dài?",
+    "options": ["Xương ngắn", "Xương dẹt", "Xương không đều", "Xương đặc"],
+    "answer": "Xương ngắn"
+  },
+  {
+    "question": "Câu 41: Trong mô liên kết, nhóm tế bào nào không thuộc nhóm di trú?",
+    "options": ["Mast bào", "Tương bào", "Đại thực bào", "Nguyên bào sợi"],
+    "answer": "Nguyên bào sợi"
+  },
+  {
+    "question": "Câu 42: Tế bào nào trong mô liên kết thường thấy quanh mao mạch, có vai trò điều chỉnh lòng mạch?",
+    "options": ["Mast bào", "Chu bào", "Tương bào", "Cốt bào"],
+    "answer": "Chu bào"
+  },
+  {
+    "question": "Câu 43: Mô liên kết nào được xem là “khung nâng đỡ” cho các cơ quan tạo máu?",
+    "options": ["Mô sợi", "Mô mỡ", "Mô lưới", "Mô sụn"],
+    "answer": "Mô lưới"
+  },
+  {
+    "question": "Câu 44: Collagen type II thường gặp nhiều trong loại mô nào?",
+    "options": ["Xương", "Gân", "Sụn trong", "Da"],
+    "answer": "Sụn trong"
+  },
+  {
+    "question": "Câu 45: Sợi nào trong mô liên kết phân nhánh, tạo lưới, có tính đàn hồi cao?",
+    "options": ["Sợi chun", "Sợi tạo keo", "Sợi lưới", "Sợi võng"],
+    "answer": "Sợi chun"
+  },
+  {
+    "question": "Câu 46: Trong thành phần hóa học của mô xương, chất hữu cơ chiếm khoảng:",
+    "options": ["10%", "20%", "30%", "40%"],
+    "answer": "30%"
+  },
+  {
+    "question": "Câu 47: Cốt bào nằm trong ổ xương và nối với nhau bằng:",
+    "options": ["Hệ mao mạch nhỏ", "Vi quản xương", "Chất căn bản xương", "Màng xương"],
+    "answer": "Vi quản xương"
+  },
+  {
+    "question": "Câu 48: Ở sụn chun, thành phần nào giúp mô có độ đàn hồi cao?",
+    "options": ["Collagen type I", "Collagen type II", "Elastin", "Glycoprotein"],
+    "answer": "Elastin"
+  },
+  {
+    "question": "Câu 49: Trong quá trình hình thành xương nguyên phát, sự kiện xảy ra đầu tiên là gì?",
+    "options": ["Muối canxi ngấm vào", "Trung tâm xương hình thành", "Tế bào trung mô sinh sản mạnh", "Tạo cốt bào tiết chất căn bản"],
+    "answer": "Tế bào trung mô sinh sản mạnh"
+  },
+  {
+    "question": "Câu 50: Xương dẹt của vòm sọ được bao ngoài bởi:",
+    "options": ["Sụn trong", "Mô sụn xơ", "Màng xương", "Mô mỡ"],
+    "answer": "Màng xương"
+  }
+],
+  "part6":[
+    
+  {
+    "question": "Câu 1: Đặc điểm nào đúng với mô liên kết chính thức?",
+    "options": ["Các tế bào sắp xếp sát nhau", "Có khoảng gian bào rộng", "Không chứa chất căn bản", "Không chứa mạch máu"],
+    "answer": "Có khoảng gian bào rộng"
+  },
+  {
+    "question": "Câu 2: Tế bào nào trong mô liên kết có khả năng di động mạnh?",
+    "options": ["Đại thực bào", "Nguyên bào sợi", "Tế bào mỡ", "Tế bào sụn"],
+    "answer": "Đại thực bào"
+  },
+  {
+    "question": "Câu 3: Thành phần chính của chất căn bản trong mô liên kết là gì?",
+    "options": ["Nước, muối khoáng, glycoprotein", "Collagen, elastin", "Tế bào", "Dịch máu"],
+    "answer": "Nước, muối khoáng, glycoprotein"
+  },
+  {
+    "question": "Câu 4: Loại mô liên kết nào có nhiều collagen, ít tế bào?",
+    "options": ["Mô liên kết lỏng lẻo", "Mô liên kết đặc", "Mô sụn", "Mô xương"],
+    "answer": "Mô liên kết đặc"
+  },
+  {
+    "question": "Câu 5: Nguyên bào sợi có vai trò gì?",
+    "options": ["Tiết collagen và elastin", "Tiết kháng thể", "Tiêu hóa vi khuẩn", "Dự trữ mỡ"],
+    "answer": "Tiết collagen và elastin"
+  },
+  {
+    "question": "Câu 6: Mô mỡ có chức năng chính là gì?",
+    "options": ["Dự trữ năng lượng, bảo vệ cơ quan", "Miễn dịch", "Cung cấp lực co bóp", "Truyền dẫn xung thần kinh"],
+    "answer": "Dự trữ năng lượng, bảo vệ cơ quan"
+  },
+  {
+    "question": "Câu 7: Đại thực bào có chức năng gì?",
+    "options": ["Tiêu hóa vi sinh vật và chất thải", "Tiết collagen", "Dự trữ mỡ", "Hình thành sụn"],
+    "answer": "Tiêu hóa vi sinh vật và chất thải"
+  },
+  {
+    "question": "Câu 8: Mast bào tiết ra chất gì gây phản ứng dị ứng?",
+    "options": ["Histamine", "Collagen", "Elastin", "Glycoprotein"],
+    "answer": "Histamine"
+  },
+  {
+    "question": "Câu 9: Sợi collagen có đặc điểm gì?",
+    "options": ["Chịu lực kéo tốt", "Co giãn mạnh", "Dẫn truyền thần kinh", "Tiết kháng thể"],
+    "answer": "Chịu lực kéo tốt"
+  },
+  {
+    "question": "Câu 10: Sợi chun (elastin) có đặc điểm gì?",
+    "options": ["Co giãn tốt, trở lại hình dạng cũ", "Cứng, chịu lực kéo", "Tiết histamine", "Dự trữ năng lượng"],
+    "answer": "Co giãn tốt, trở lại hình dạng cũ"
+  },
+  {
+    "question": "Câu 11: Mô liên kết lỏng lẻo có đặc điểm gì?",
+    "options": ["Nhiều tế bào, ít sợi", "Nhiều collagen đặc", "Không có chất căn bản", "Không có mạch máu"],
+    "answer": "Nhiều tế bào, ít sợi"
+  },
+  {
+    "question": "Câu 12: Mô sụn có đặc điểm gì?",
+    "options": ["Không có mạch máu, chất căn bản giàu proteoglycan", "Chứa nhiều mạch máu, collagen đặc", "Dự trữ mỡ", "Miễn dịch chủ yếu"],
+    "answer": "Không có mạch máu, chất căn bản giàu proteoglycan"
+  },
+  {
+    "question": "Câu 13: Loại sụn có collagen loại II chủ yếu là gì?",
+    "options": ["Sụn trong", "Sụn xơ", "Sụn chun", "Sụn mỡ"],
+    "answer": "Sụn trong"
+  },
+  {
+    "question": "Câu 14: Sụn xơ có đặc điểm gì?",
+    "options": ["Nhiều collagen loại I, chịu lực kéo", "Co giãn tốt", "Giàu mỡ", "Có mạch máu nhiều"],
+    "answer": "Nhiều collagen loại I, chịu lực kéo"
+  },
+  {
+    "question": "Câu 15: Sụn chun có đặc điểm gì?",
+    "options": ["Giàu sợi chun, co giãn tốt", "Cứng, chịu lực kéo", "Tiết histamine", "Miễn dịch"],
+    "answer": "Giàu sợi chun, co giãn tốt"
+  },
+  {
+    "question": "Câu 16: Mô xương gồm các thành phần nào?",
+    "options": ["Tế bào xương, chất căn bản khoáng hóa, sợi collagen", "Tế bào mỡ, elastin", "Mast bào, collagen", "Chủ yếu là nước"],
+    "answer": "Tế bào xương, chất căn bản khoáng hóa, sợi collagen"
+  },
+  {
+    "question": "Câu 17: Tế bào nào tạo xương mới?",
+    "options": ["Tạo cốt bào", "Hủy cốt bào", "Nguyên bào sợi", "Đại thực bào"],
+    "answer": "Tạo cốt bào"
+  },
+  {
+    "question": "Câu 18: Tế bào nào phá hủy xương cũ?",
+    "options": ["Hủy cốt bào", "Tạo cốt bào", "Tương bào", "Mast bào"],
+    "answer": "Hủy cốt bào"
+  },
+  {
+    "question": "Câu 19: Mô liên kết có mạch máu nhiều nhất là loại nào?",
+    "options": ["Mô liên kết lỏng lẻo", "Sụn", "Xương", "Mô mỡ"],
+    "answer": "Mô liên kết lỏng lẻo"
+  },
+  {
+    "question": "Câu 20: Mô liên kết không có mạch máu là gì?",
+    "options": ["Sụn", "Mô liên kết lỏng lẻo", "Xương", "Mô mỡ"],
+    "answer": "Sụn"
+  },
+  {
+    "question": "Câu 21: Tế bào tương bào có vai trò gì?",
+    "options": ["Sản xuất kháng thể", "Tiết histamine", "Dự trữ mỡ", "Tạo collagen"],
+    "answer": "Sản xuất kháng thể"
+  },
+  {
+    "question": "Câu 22: Glycosaminoglycan trong chất căn bản có chức năng gì?",
+    "options": ["Giữ nước, tạo độ đàn hồi", "Tạo collagen", "Tiết histamine", "Phá hủy mô"],
+    "answer": "Giữ nước, tạo độ đàn hồi"
+  },
+  {
+    "question": "Câu 23: Chất căn bản trong mô liên kết đặc là gì?",
+    "options": ["Ít, chủ yếu là sợi collagen", "Nhiều nước và proteoglycan", "Dự trữ mỡ", "Chứa mast bào"],
+    "answer": "Ít, chủ yếu là sợi collagen"
+  },
+  {
+    "question": "Câu 24: Mô liên kết lỏng lẻo có chức năng gì?",
+    "options": ["Đệm, nuôi dưỡng tế bào, miễn dịch", "Chịu lực kéo mạnh", "Dự trữ mỡ", "Tạo xương"],
+    "answer": "Đệm, nuôi dưỡng tế bào, miễn dịch"
+  },
+  {
+    "question": "Câu 25: Collagen loại I chủ yếu có ở đâu?",
+    "options": ["Xương, gân, da", "Sụn trong", "Sụn chun", "Tế bào mỡ"],
+    "answer": "Xương, gân, da"
+  },
+  {
+    "question": "Câu 26: Collagen loại II chủ yếu có ở đâu?",
+    "options": ["Sụn trong", "Xương", "Mô mỡ", "Mast bào"],
+    "answer": "Sụn trong"
+  },
+  {
+    "question": "Câu 27: Mô xương đặc có cấu trúc gì?",
+    "options": ["Hệ thống Havers, khoáng hóa cao", "Chất căn bản giàu nước", "Chứa mast bào", "Nhiều tế bào di động"],
+    "answer": "Hệ thống Havers, khoáng hóa cao"
+  },
+  {
+    "question": "Câu 28: Mô xương xốp có đặc điểm gì?",
+    "options": ["Giữa các bè xương có tủy xương", "Rất chắc, ít tế bào", "Không chứa collagen", "Không có chất căn bản"],
+    "answer": "Giữa các bè xương có tủy xương"
+  },
+  {
+    "question": "Câu 29: Tủy xương có chức năng gì?",
+    "options": ["Tạo máu, dự trữ mỡ", "Tiết histamine", "Tạo collagen", "Hủy xương"],
+    "answer": "Tạo máu, dự trữ mỡ"
+  },
+  {
+    "question": "Câu 30: Nguyên bào sợi biệt hóa có ở đâu nhiều nhất?",
+    "options": ["Gân, dây chằng", "Sụn trong", "Mô mỡ", "Tủy xương"],
+    "answer": "Gân, dây chằng"
+  },
+  {
+    "question": "Câu 31: Mô liên kết đặc không đều có đặc điểm gì?",
+    "options": ["Sợi collagen sắp xếp nhiều hướng", "Sợi collagen song song", "Nhiều tế bào di động", "Không có chất căn bản"],
+    "answer": "Sợi collagen sắp xếp nhiều hướng"
+  },
+  {
+    "question": "Câu 32: Mô liên kết đặc đều có đặc điểm gì?",
+    "options": ["Sợi collagen song song, chịu lực kéo mạnh", "Co giãn tốt", "Nhiều mast bào", "Giàu proteoglycan"],
+    "answer": "Sợi collagen song song, chịu lực kéo mạnh"
+  },
+  {
+    "question": "Câu 33: Mô mỡ vàng khác mô mỡ nâu ở điểm nào?",
+    "options": ["Mỡ vàng dự trữ năng lượng, mỡ nâu tạo nhiệt", "Mỡ vàng tạo nhiệt, mỡ nâu dự trữ năng lượng", "Mỡ vàng giàu mạch máu, mỡ nâu ít", "Không khác"],
+    "answer": "Mỡ vàng dự trữ năng lượng, mỡ nâu tạo nhiệt"
+  },
+  {
+    "question": "Câu 34: Loại mô liên kết nào chịu lực tốt nhất?",
+    "options": ["Mô xương", "Sụn chun", "Mô mỡ", "Mô liên kết lỏng lẻo"],
+    "answer": "Mô xương"
+  },
+  {
+    "question": "Câu 35: Loại mô liên kết nào linh hoạt nhất?",
+    "options": ["Sụn chun", "Mô xương", "Sụn xơ", "Mô liên kết đặc"],
+    "answer": "Sụn chun"
+  },
+  {
+    "question": "Câu 36: Mô liên kết lỏng lẻo giàu loại tế bào nào?",
+    "options": ["Đại thực bào, mast bào, tương bào", "Nguyên bào sợi", "Cốt bào", "Hủy cốt bào"],
+    "answer": "Đại thực bào, mast bào, tương bào"
+  },
+  {
+    "question": "Câu 37: Mô liên kết đặc chiếm tỷ lệ chất căn bản và sợi như thế nào?",
+    "options": ["Ít chất căn bản, nhiều sợi collagen", "Nhiều chất căn bản, ít sợi", "Chủ yếu là nước", "Không có collagen"],
+    "answer": "Ít chất căn bản, nhiều sợi collagen"
+  },
+  {
+    "question": "Câu 38: Sụn có mạch máu không?",
+    "options": ["Không", "Có nhiều", "Có ít", "Chỉ khi tổn thương"],
+    "answer": "Không"
+  },
+  {
+    "question": "Câu 39: Sụn nhận dưỡng chất bằng cách nào?",
+    "options": ["Khuếch tán từ mô xung quanh", "Từ mạch máu trong sụn", "Từ tế bào mỡ", "Qua mast bào"],
+    "answer": "Khuếch tán từ mô xung quanh"
+  },
+  {
+    "question": "Câu 40: Loại mô liên kết nào giúp chống sốc cơ học?",
+    "options": ["Sụn", "Mô liên kết đặc", "Mô mỡ", "Mô liên kết lỏng lẻo"],
+    "answer": "Sụn"
+  },
+  {
+    "question": "Câu 41: Mô liên kết nào chứa nhiều proteoglycan nhất?",
+    "options": ["Sụn", "Mô xương", "Mô mỡ", "Mô liên kết đặc"],
+    "answer": "Sụn"
+  },
+  {
+    "question": "Câu 42: Sợi reticular có đặc điểm gì?",
+    "options": ["Tạo khung nâng đỡ các cơ quan mềm", "Chịu lực kéo mạnh", "Co giãn tốt", "Tiết histamine"],
+    "answer": "Tạo khung nâng đỡ các cơ quan mềm"
+  },
+  {
+    "question": "Câu 43: Tế bào trung mô có đặc điểm gì?",
+    "options": ["Nguyên bào đa năng, biệt hóa thành nhiều loại mô liên kết", "Tiết histamine", "Tạo kháng thể", "Hủy xương"],
+    "answer": "Nguyên bào đa năng, biệt hóa thành nhiều loại mô liên kết"
+  },
+  {
+    "question": "Câu 44: Loại mô liên kết nào giúp tạo kháng thể?",
+    "options": ["Tương bào", "Nguyên bào sợi", "Cốt bào", "Hủy cốt bào"],
+    "answer": "Tương bào"
+  },
+  {
+    "question": "Câu 45: Mô liên kết nào có khả năng co giãn tốt?",
+    "options": ["Sụn chun", "Mô xương", "Sụn xơ", "Mô liên kết đặc"],
+    "answer": "Sụn chun"
+  },
+  {
+    "question": "Câu 46: Loại mô liên kết nào giúp dự trữ năng lượng chính?",
+    "options": ["Mô mỡ", "Sụn", "Mô liên kết đặc", "Xương"],
+    "answer": "Mô mỡ"
+  },
+  {
+    "question": "Câu 47: Mô xương có mạch máu không?",
+    "options": ["Có", "Không", "Chỉ ở bề mặt", "Chỉ khi tổn thương"],
+    "answer": "Có"
+  },
+  {
+    "question": "Câu 48: Sụn xơ thường có ở đâu?",
+    "options": ["Đĩa đệm, dây chằng, sụn khớp", "Sụn tai", "Sụn khớp bình thường", "Mô mỡ"],
+    "answer": "Đĩa đệm, dây chằng, sụn khớp"
+  },
+  {
+    "question": "Câu 49: Loại mô liên kết nào giúp chống viêm và miễn dịch tại chỗ?",
+    "options": ["Mô liên kết lỏng lẻo", "Mô xương", "Sụn", "Mô mỡ"],
+    "answer": "Mô liên kết lỏng lẻo"
+  },
+  {
+    "question": "Câu 50: Loại tế bào nào trong mô liên kết tiết histamine khi dị ứng?",
+    "options": ["Mast bào", "Đại thực bào", "Tương bào", "Nguyên bào sợi"],
+    "answer": "Mast bào"
+  }
+
+
+  ]
+} 
