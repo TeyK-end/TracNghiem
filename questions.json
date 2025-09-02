@@ -501,506 +501,216 @@
       "answer": "Tế bào nang tuyến"
     }
 ],
-    "part2":[
-        {
-          "question": "Câu 1: Ngành khoa học nào nghiên cứu cấu tạo vi thể và siêu vi thể của cơ thể?",
-          "options": [
-            "Giải phẫu học",
-            "Sinh lý học",
-            "Mô học",
-      "Hóa sinh"
+    "part2":[     
+  {
+    "question": "Câu 1: Để phân loại biểu mô người ta không dựa vào các tiêu chuẩn sau:",
+    "options": [
+      "Hình dạng tế bào",
+      "Số hàng tế bào",
+      "Nguồn gốc phôi thai",
+      "Chức năng biểu mô"
     ],
-    "answer": "Mô học"
+    "answer": "Nguồn gốc phôi thai"
   },
   {
-    "question": "Câu 2: Trong cơ thể người có bao nhiêu loại mô chính?",
+    "question": "Câu 2: Biểu mô có các đặc điểm sau đây, TRỪ MỘT",
     "options": [
-      "3",
-      "4",
-      "5",
-      "6"
+      "Tế bào đứng sát nhau",
+      "Có nhiều mạch máu để nuôi biểu mô",
+      "Có nhiều thể liên kết đa dạng",
+      "Có tính phân cực rõ"
     ],
-    "answer": "5"
+    "answer": "Có nhiều mạch máu để nuôi biểu mô"
   },
   {
-    "question": "Câu 3: Đơn vị sống cơ bản của cơ thể là:",
+    "question": "Câu 3: Vi nhung mao có các đặc điểm cấu tạo:",
     "options": [
-      "Mô",
-      "Cơ quan",
-      "Tế bào",
-      "Hệ cơ quan"
+      "Không có màng bọc nhưng có siêu sợi",
+      "Có màng tế bào và nhiều siêu sợi actin",
+      "Có màng tế bào và nhiều siêu ống",
+      "Có nhiều liên kết vòng bịt"
     ],
-    "answer": "Tế bào"
+    "answer": "Có màng tế bào và nhiều siêu sợi actin"
   },
   {
-    "question": "Câu 4: Loại biểu mô nào có tính tái tạo mạnh nhất?",
+    "question": "Câu 4: Lông chuyển có cấu tạo:",
     "options": [
-      "Biểu mô tuyến",
-      "Biểu mô phủ",
-      "Biểu mô chuyển tiếp",
-      "Biểu mô trụ giả tầng"
+      "Giống vi nhung mao",
+      "Có nhiều siêu ống xếp giống trung tử",
+      "Có nhiều siêu sợi xếp song song",
+      "Có ở tế bào tất cả các mô"
     ],
-    "answer": "Biểu mô phủ"
+    "answer": "Có nhiều siêu ống xếp giống trung tử"
   },
   {
-    "question": "Câu 5: Đặc điểm nào KHÔNG thuộc về biểu mô?",
+    "question": "Câu 5: Nếp gấp đáy phát triển nhất trong tế bào:",
     "options": [
-      "Tế bào xếp sát nhau",
+      "Ống lượn gần",
+      "Tế bào nang tuyến giáp",
+      "Tế bào gan",
+      "Tế bào hấp thu ruột non"
+    ],
+    "answer": "Ống lượn gần"
+  },
+  {
+    "question": "Câu 6: Biểu mô lát đơn có ở:",
+    "options": [
+      "Bề mặt lòng khoang thiên nhiên",
+      "Lá ngoài khoang Bowmann ở thận",
+      "Các ống bài xuất của tuyến ngoại tiết",
+      "Có ở nơi gặp nhiều ma sát"
+    ],
+    "answer": "Lá ngoài khoang Bowmann ở thận"
+  },
+  {
+    "question": "Câu 7: Biểu mô trung gian giả tầng gặp ở:",
+    "options": [
+      "Bàng quang",
+      "Tử cung",
+      "Âm đạo",
+      "Thực quản"
+    ],
+    "answer": "Bàng quang"
+  },
+  {
+    "question": "Câu 8: Trong biểu mô lát tầng sừng hóa, hạt Keratohyaline xuất hiện nhiều ở lớp:",
+    "options": [
+      "Lớp đáy",
+      "Lớp gai",
+      "Lớp hạt",
+      "Lớp sừng"
+    ],
+    "answer": "Lớp hạt"
+  },
+  {
+    "question": "Câu 9: Loại protein đặc biệt có tác dụng lay động lông chuyển là:",
+    "options": [
+      "Myosin",
+      "Conexon",
+      "Dynein",
+      "Actin"
+    ],
+    "answer": "Dynein"
+  },
+  {
+    "question": "Câu 10: Loại protein có trong thể liên kết khe là:",
+    "options": [
+      "Myosin",
+      "Conexon",
+      "Dynein",
+      "Actin"
+    ],
+    "answer": "Conexon"
+  },
+  {
+    "question": "Câu 11: Liên kết khe có trong các mô sau, TRỪ MỘT:",
+    "options": [
+      "Biểu mô",
+      "Mô liên kết",
+      "Mô thần kinh",
+      "Mô cơ"
+    ],
+    "answer": "Mô thần kinh"
+  },
+  {
+    "question": "Câu 12: Biểu mô lát tầng không sừng hóa khác biểu mô lát tầng sừng hóa ở chỗ:",
+    "options": [
+      "Có nhiều thể liên kết gai",
+      "Không có lớp hạt",
       "Không có mạch máu",
-      "Có khả năng tái tạo mạnh",
-      "Có nhiều sợi collagen xen kẽ"
+      "Có tính phân cực"
     ],
-    "answer": "Có nhiều sợi collagen xen kẽ"
+    "answer": "Không có lớp hạt"
   },
   {
-    "question": "Câu 6: Biểu mô lát đơn thường gặp ở đâu?",
+    "question": "Câu 13: Biểu mô trụ giả tầng có lông chuyển là biểu mô:",
     "options": [
-      "Lòng mạch máu",
-      "Biểu bì da",
-      "Thực quản",
-      "Niệu quản"
+      "Có nhiều hàng tế bào, hàng trên cùng là tế bào trụ có lông chuyển",
+      "Có nhiều loại tế bào và đều tựa trên màng đáy",
+      "Chỉ có ở đường hô hấp",
+      "Có ba loại tế bào xếp thành nhiều lớp"
     ],
-    "answer": "Lòng mạch máu"
+    "answer": "Có nhiều loại tế bào và đều tựa trên màng đáy"
   },
   {
-    "question": "Câu 7: Tuyến bã ở da chế tiết theo kiểu:",
+    "question": "Câu 14: Trong các loại tuyến sau, tuyến nào KHÔNG phải cấu tạo kiểu lưới:",
     "options": [
-      "Toàn vẹn",
-      "Bán hủy",
-      "Toàn hủy",
-      "Hỗn hợp"
+      "Thùy trước tuyến yên",
+      "Tuyến cận giáp",
+      "Tuyến kẽ tinh hoàn",
+      "Hoàng thể"
     ],
-    "answer": "Toàn hủy"
+    "answer": "Tuyến kẽ tinh hoàn"
   },
   {
-    "question": "Câu 8: Loại biểu mô nào có lông chuyển?",
+    "question": "Câu 15: Tuyến Lieberkuhn là tuyến có cấu tạo:",
     "options": [
-      "Biểu mô vuông đơn",
-      "Biểu mô trụ giả tầng",
-      "Biểu mô lát đơn",
-      "Biểu mô lát tầng"
+      "Kiểu tuyến ống túi",
+      "Kiểu tuyến túi đơn",
+      "Kiểu ống đơn thẳng",
+      "Kiểu ống chia nhánh thẳng"
     ],
-    "answer": "Biểu mô trụ giả tầng"
+    "answer": "Kiểu ống đơn thẳng"
   },
   {
-    "question": "Câu 9: Tuyến nội tiết tiết hormon theo cách nào?",
+    "question": "Câu 16: Trong các loại tuyến sau, tuyến nào là tuyến ống đơn cong queo:",
     "options": [
-      "Đổ trực tiếp ra bề mặt da",
-      "Qua ống dẫn",
-      "Vào máu",
-      "Vào khoang cơ thể"
+      "Tuyến bã",
+      "Tuyến nước bọt",
+      "Tuyến giáp",
+      "Tuyến mồ hôi"
     ],
-    "answer": "Vào máu"
+    "answer": "Tuyến mồ hôi"
   },
   {
-    "question": "Câu 10: Biểu mô lát tầng sừng hóa có ở:",
+    "question": "Câu 17: Tuyến bã có cấu tạo:",
     "options": [
-      "Da",
-      "Thực quản",
-      "Giác mạc",
-      "Buồng trứng"
+      "Kiểu tuyến ống túi",
+      "Kiểu tuyến túi dạng chùm nho",
+      "Kiểu tuyến túi đơn",
+      "Kiểu ống chia nhánh"
     ],
-    "answer": "Da"
+    "answer": "Kiểu tuyến túi đơn"
   },
   {
-    "question": "Câu 11: Ngành khoa học nào nghiên cứu cấu tạo vi thể và siêu vi thể của cơ thể?",
+    "question": "Câu 18: Tuyến ống túi là cấu tạo của tuyến:",
     "options": [
-      "Giải phẫu học",
-      "Sinh lý học",
-      "Mô học",
-      "Hóa sinh"
+      "Tuyến nước bọt",
+      "Tuyến tiền liệt",
+      "Tuyến Lieberkuhn",
+      "Tuyến đáy vị dạ dày"
     ],
-    "answer": "Mô học"
+    "answer": "Tuyến tiền liệt"
   },
   {
-    "question": "Câu 12: Trong cơ thể người có bao nhiêu loại mô chính?",
+    "question": "Câu 19: Tuyến đáy vị dạ dày là tuyến có cấu tạo:",
     "options": [
-      "3",
-      "4",
-      "5",
-      "6"
+      "Kiểu ống túi",
+      "Kiểu ống chia nhánh cong queo",
+      "Kiểu túi dạng chùm nho",
+      "Kiểu ống chia nhánh thẳng"
     ],
-    "answer": "5"
+    "answer": "Kiểu ống chia nhánh thẳng"
   },
   {
-    "question": "Câu 13: Đơn vị sống cơ bản của cơ thể là:",
+    "question": "Câu 20: Biểu mô bàng quang là biểu mô:",
     "options": [
-      "Mô",
-      "Cơ quan",
-      "Tế bào",
-      "Hệ cơ quan"
+      "Lát tầng không sừng hóa",
+      "Trung gian giả tầng",
+      "Lát đơn",
+      "Trụ tầng"
     ],
-    "answer": "Tế bào"
+    "answer": "Trung gian giả tầng"
   },
   {
-    "question": "Câu 14: Loại biểu mô nào có tính tái tạo mạnh nhất?",
+    "question": "Câu 21: Các cặp ghép hợp dưới đây có 1 là SAI:",
     "options": [
-      "Biểu mô tuyến",
-      "Biểu mô phủ",
-      "Biểu mô chuyển tiếp",
-      "Biểu mô trụ giả tầng"
+      "Liên kết khe - Có tác dụng vận chuyển ion",
+      "Liên kết vòng bịt - Có tác dụng ngăn cách với môi trường ngoài",
+      "Liên kết điểm - Có phức hợp Conexon",
+      "Liên kết mộng - Có tác dụng liên kết là chính"
     ],
-    "answer": "Biểu mô phủ"
-  },
-  {
-    "question": "Câu 15: Đặc điểm nào KHÔNG thuộc về biểu mô?",
-    "options": [
-      "Tế bào xếp sát nhau",
-      "Không có mạch máu",
-      "Có khả năng tái tạo mạnh",
-      "Có nhiều sợi collagen xen kẽ"
-    ],
-    "answer": "Có nhiều sợi collagen xen kẽ"
-  },
-  {
-    "question": "Câu 16: Biểu mô lát đơn thường gặp ở đâu?",
-    "options": [
-      "Lòng mạch máu",
-      "Biểu bì da",
-      "Thực quản",
-      "Niệu quản"
-    ],
-    "answer": "Lòng mạch máu"
-  },
-  {
-    "question": "Câu 17: Tuyến bã ở da chế tiết theo kiểu:",
-    "options": [
-      "Toàn vẹn",
-      "Bán hủy",
-      "Toàn hủy",
-      "Hỗn hợp"
-    ],
-    "answer": "Toàn hủy"
-  },
-  {
-    "question": "Câu 18: Loại biểu mô nào có lông chuyển?",
-    "options": [
-      "Biểu mô vuông đơn",
-      "Biểu mô trụ giả tầng",
-      "Biểu mô lát đơn",
-      "Biểu mô lát tầng"
-    ],
-    "answer": "Biểu mô trụ giả tầng"
-  },
-  {
-    "question": "Câu 19: Tuyến nội tiết tiết hormon theo cách nào?",
-    "options": [
-      "Đổ trực tiếp ra bề mặt da",
-      "Qua ống dẫn",
-      "Vào máu",
-      "Vào khoang cơ thể"
-    ],
-    "answer": "Vào máu"
-  },
-  {
-    "question": "Câu 20: Biểu mô lát tầng sừng hóa có ở:",
-    "options": [
-      "Da",
-      "Thực quản",
-      "Giác mạc",
-      "Buồng trứng"
-    ],
-    "answer": "Da"
-  },
-  {
-    "question": "Câu 21: Ngành khoa học nào nghiên cứu cấu tạo vi thể và siêu vi thể của cơ thể?",
-    "options": [
-      "Giải phẫu học",
-      "Sinh lý học",
-      "Mô học",
-      "Hóa sinh"
-    ],
-    "answer": "Mô học"
-  },
-  {
-    "question": "Câu 22: Trong cơ thể người có bao nhiêu loại mô chính?",
-    "options": [
-      "3",
-      "4",
-      "5",
-      "6"
-    ],
-    "answer": "5"
-  },
-  {
-    "question": "Câu 23: Đơn vị sống cơ bản của cơ thể là:",
-    "options": [
-      "Mô",
-      "Cơ quan",
-      "Tế bào",
-      "Hệ cơ quan"
-    ],
-    "answer": "Tế bào"
-  },
-  {
-    "question": "Câu 24: Loại biểu mô nào có tính tái tạo mạnh nhất?",
-    "options": [
-      "Biểu mô tuyến",
-      "Biểu mô phủ",
-      "Biểu mô chuyển tiếp",
-      "Biểu mô trụ giả tầng"
-    ],
-    "answer": "Biểu mô phủ"
-  },
-  {
-    "question": "Câu 25: Đặc điểm nào KHÔNG thuộc về biểu mô?",
-    "options": [
-      "Tế bào xếp sát nhau",
-      "Không có mạch máu",
-      "Có khả năng tái tạo mạnh",
-      "Có nhiều sợi collagen xen kẽ"
-    ],
-    "answer": "Có nhiều sợi collagen xen kẽ"
-  },
-  {
-    "question": "Câu 26: Biểu mô lát đơn thường gặp ở đâu?",
-    "options": [
-      "Lòng mạch máu",
-      "Biểu bì da",
-      "Thực quản",
-      "Niệu quản"
-    ],
-    "answer": "Lòng mạch máu"
-  },
-  {
-    "question": "Câu 27: Tuyến bã ở da chế tiết theo kiểu:",
-    "options": [
-      "Toàn vẹn",
-      "Bán hủy",
-      "Toàn hủy",
-      "Hỗn hợp"
-    ],
-    "answer": "Toàn hủy"
-  },
-  {
-    "question": "Câu 28: Loại biểu mô nào có lông chuyển?",
-    "options": [
-      "Biểu mô vuông đơn",
-      "Biểu mô trụ giả tầng",
-      "Biểu mô lát đơn",
-      "Biểu mô lát tầng"
-    ],
-    "answer": "Biểu mô trụ giả tầng"
-  },
-  {
-    "question": "Câu 29: Tuyến nội tiết tiết hormon theo cách nào?",
-    "options": [
-      "Đổ trực tiếp ra bề mặt da",
-      "Qua ống dẫn",
-      "Vào máu",
-      "Vào khoang cơ thể"
-    ],
-    "answer": "Vào máu"
-  },
-  {
-    "question": "Câu 30: Biểu mô lát tầng sừng hóa có ở:",
-    "options": [
-      "Da",
-      "Thực quản",
-      "Giác mạc",
-      "Buồng trứng"
-    ],
-    "answer": "Da"
-  },
-  {
-    "question": "Câu 31: Ngành khoa học nào nghiên cứu cấu tạo vi thể và siêu vi thể của cơ thể?",
-    "options": [
-      "Giải phẫu học",
-      "Sinh lý học",
-      "Mô học",
-      "Hóa sinh"
-    ],
-    "answer": "Mô học"
-  },
-  {
-    "question": "Câu 32: Trong cơ thể người có bao nhiêu loại mô chính?",
-    "options": [
-      "3",
-      "4",
-      "5",
-      "6"
-    ],
-    "answer": "5"
-  },
-  {
-    "question": "Câu 33: Đơn vị sống cơ bản của cơ thể là:",
-    "options": [
-      "Mô",
-      "Cơ quan",
-      "Tế bào",
-      "Hệ cơ quan"
-    ],
-    "answer": "Tế bào"
-  },
-  {
-    "question": "Câu 34: Loại biểu mô nào có tính tái tạo mạnh nhất?",
-    "options": [
-      "Biểu mô tuyến",
-      "Biểu mô phủ",
-      "Biểu mô chuyển tiếp",
-      "Biểu mô trụ giả tầng"
-    ],
-    "answer": "Biểu mô phủ"
-  },
-  {
-    "question": "Câu 35: Đặc điểm nào KHÔNG thuộc về biểu mô?",
-    "options": [
-      "Tế bào xếp sát nhau",
-      "Không có mạch máu",
-      "Có khả năng tái tạo mạnh",
-      "Có nhiều sợi collagen xen kẽ"
-    ],
-    "answer": "Có nhiều sợi collagen xen kẽ"
-  },
-  {
-    "question": "Câu 36: Biểu mô lát đơn thường gặp ở đâu?",
-    "options": [
-      "Lòng mạch máu",
-      "Biểu bì da",
-      "Thực quản",
-      "Niệu quản"
-    ],
-    "answer": "Lòng mạch máu"
-  },
-  {
-    "question": "Câu 37: Tuyến bã ở da chế tiết theo kiểu:",
-    "options": [
-      "Toàn vẹn",
-      "Bán hủy",
-      "Toàn hủy",
-      "Hỗn hợp"
-    ],
-    "answer": "Toàn hủy"
-  },
-  {
-    "question": "Câu 38: Loại biểu mô nào có lông chuyển?",
-    "options": [
-      "Biểu mô vuông đơn",
-      "Biểu mô trụ giả tầng",
-      "Biểu mô lát đơn",
-      "Biểu mô lát tầng"
-    ],
-    "answer": "Biểu mô trụ giả tầng"
-  },
-  {
-    "question": "Câu 39: Tuyến nội tiết tiết hormon theo cách nào?",
-    "options": [
-      "Đổ trực tiếp ra bề mặt da",
-      "Qua ống dẫn",
-      "Vào máu",
-      "Vào khoang cơ thể"
-    ],
-    "answer": "Vào máu"
-  },
-  {
-    "question": "Câu 40: Biểu mô lát tầng sừng hóa có ở:",
-    "options": [
-      "Da",
-      "Thực quản",
-      "Giác mạc",
-      "Buồng trứng"
-    ],
-    "answer": "Da"
-  },
-  {
-    "question": "Câu 41: Ngành khoa học nào nghiên cứu cấu tạo vi thể và siêu vi thể của cơ thể?",
-    "options": [
-      "Giải phẫu học",
-      "Sinh lý học",
-      "Mô học",
-      "Hóa sinh"
-    ],
-    "answer": "Mô học"
-  },
-  {
-    "question": "Câu 42: Trong cơ thể người có bao nhiêu loại mô chính?",
-    "options": [
-      "3",
-      "4",
-      "5",
-      "6"
-    ],
-    "answer": "5"
-  },
-  {
-    "question": "Câu 43: Đơn vị sống cơ bản của cơ thể là:",
-    "options": [
-      "Mô",
-      "Cơ quan",
-      "Tế bào",
-      "Hệ cơ quan"
-    ],
-    "answer": "Tế bào"
-  },
-  {
-    "question": "Câu 44: Loại biểu mô nào có tính tái tạo mạnh nhất?",
-    "options": [
-      "Biểu mô tuyến",
-      "Biểu mô phủ",
-      "Biểu mô chuyển tiếp",
-      "Biểu mô trụ giả tầng"
-    ],
-    "answer": "Biểu mô phủ"
-  },
-  {
-    "question": "Câu 45: Đặc điểm nào KHÔNG thuộc về biểu mô?",
-    "options": [
-      "Tế bào xếp sát nhau",
-      "Không có mạch máu",
-      "Có khả năng tái tạo mạnh",
-      "Có nhiều sợi collagen xen kẽ"
-    ],
-    "answer": "Có nhiều sợi collagen xen kẽ"
-  },
-  {
-    "question": "Câu 46: Biểu mô lát đơn thường gặp ở đâu?",
-    "options": [
-      "Lòng mạch máu",
-      "Biểu bì da",
-      "Thực quản",
-      "Niệu quản"
-    ],
-    "answer": "Lòng mạch máu"
-  },
-  {
-    "question": "Câu 47: Tuyến bã ở da chế tiết theo kiểu:",
-    "options": [
-      "Toàn vẹn",
-      "Bán hủy",
-      "Toàn hủy",
-      "Hỗn hợp"
-    ],
-    "answer": "Toàn hủy"
-  },
-  {
-    "question": "Câu 48: Loại biểu mô nào có lông chuyển?",
-    "options": [
-      "Biểu mô vuông đơn",
-      "Biểu mô trụ giả tầng",
-      "Biểu mô lát đơn",
-      "Biểu mô lát tầng"
-    ],
-    "answer": "Biểu mô trụ giả tầng"
-  },
-  {
-    "question": "Câu 49: Tuyến nội tiết tiết hormon theo cách nào?",
-    "options": [
-      "Đổ trực tiếp ra bề mặt da",
-      "Qua ống dẫn",
-      "Vào máu",
-      "Vào khoang cơ thể"
-    ],
-    "answer": "Vào máu"
-  },
-  {
-    "question": "Câu 50: Biểu mô lát tầng sừng hóa có ở:",
-    "options": [
-      "Da",
-      "Thực quản",
-      "Giác mạc",
-      "Buồng trứng"
-    ],
-    "answer": "Da"
+    "answer": "Liên kết mộng - Có tác dụng liên kết là chính"
   }
 ],
     "part3": [
@@ -2263,5 +1973,1010 @@
   }
 
 
-  ]
+  ],
+  "part7": [
+    {
+      "question": "Mô cơ có nguồn gốc từ lớp mầm phôi nào?",
+      "options": [
+        "Ngoại bì",
+        "Nội bì",
+        "Trung bì",
+        "Tất cả sai"
+      ],
+      "answer": "Trung bì"
+    },
+    {
+      "question": "Đơn vị cấu tạo và chức năng của mô cơ là:",
+      "options": [
+        "Tế bào cơ (sợi cơ)",
+        "Sợi thần kinh",
+        "Sarcomere",
+        "Myofibril"
+      ],
+      "answer": "Tế bào cơ (sợi cơ)"
+    },
+    {
+      "question": "Loại mô cơ nào co rút theo ý muốn?",
+      "options": [
+        "Cơ tim",
+        "Cơ trơn",
+        "Cơ vân",
+        "Cơ biểu mô"
+      ],
+      "answer": "Cơ vân"
+    },
+    {
+      "question": "Sarcomere được giới hạn bởi:",
+      "options": [
+        "Vạch M",
+        "Vạch Z",
+        "Băng A",
+        "Băng I"
+      ],
+      "answer": "Vạch Z"
+    },
+    {
+      "question": "Khi cơ vân co, băng nào ngắn lại?",
+      "options": [
+        "Băng A",
+        "Băng I",
+        "Vạch Z",
+        "Băng A và H cùng ngắn lại"
+      ],
+      "answer": "Băng I"
+    },
+    {
+      "question": "Trong sự co cơ vân, siêu sợi nào trượt vào giữa?",
+      "options": [
+        "Actin",
+        "Myosin",
+        "Troponin",
+        "Titin"
+      ],
+      "answer": "Actin"
+    },
+    {
+      "question": "Đặc điểm đúng của cơ vân:",
+      "options": [
+        "Nhân nằm ở giữa tế bào",
+        "Có nhiều nhân sát màng",
+        "Có phân nhánh như cơ tim",
+        "Không có vân ngang"
+      ],
+      "answer": "Có nhiều nhân sát màng"
+    },
+    {
+      "question": "Loại sợi cơ nào co rút chậm nhưng bền bỉ?",
+      "options": [
+        "Sợi cơ trắng",
+        "Sợi cơ đỏ",
+        "Sợi cơ trung gian",
+        "Cả ba đều đúng"
+      ],
+      "answer": "Sợi cơ đỏ"
+    },
+    {
+      "question": "Cơ tim có đặc điểm nào?",
+      "options": [
+        "Nhân lệch, sát màng",
+        "Sợi phân nhánh, nối nhau qua vạch bậc thang",
+        "Co rút theo ý muốn",
+        "Không có sarcomere"
+      ],
+      "answer": "Sợi phân nhánh, nối nhau qua vạch bậc thang"
+    },
+    {
+      "question": "Vạch bậc thang của cơ tim có vai trò:",
+      "options": [
+        "Giúp cơ tim co nhanh hơn",
+        "Nối liền các tế bào cơ tim",
+        "Sinh năng lượng",
+        "Tích trữ ion Ca²⁺"
+      ],
+      "answer": "Nối liền các tế bào cơ tim"
+    },
+    {
+      "question": "Trong tế bào cơ tim, bào quan nhiều nhất là:",
+      "options": [
+        "Bộ Golgi",
+        "Ty thể",
+        "Nhân",
+        "Ribosome"
+      ],
+      "answer": "Ty thể"
+    },
+    {
+      "question": "Hormone ANP được tiết ra từ:",
+      "options": [
+        "Tế bào cơ trơn",
+        "Tế bào cơ tim nhĩ",
+        "Tế bào Purkinje",
+        "Tế bào thần kinh"
+      ],
+      "answer": "Tế bào cơ tim nhĩ"
+    },
+    {
+      "question": "Mạng lưới Purkinje thuộc loại tế bào nào?",
+      "options": [
+        "Thần kinh đệm",
+        "Trung gian",
+        "Cơ tim dẫn truyền",
+        "Cơ trơn"
+      ],
+      "answer": "Cơ tim dẫn truyền"
+    },
+    {
+      "question": "Đặc điểm sai của cơ trơn là:",
+      "options": [
+        "Nhân hình gậy ở trung tâm",
+        "Có sarcomere và vân ngang",
+        "Liên kết với nhau bằng liên kết khe",
+        "Co rút không theo ý muốn"
+      ],
+      "answer": "Có sarcomere và vân ngang"
+    },
+    {
+      "question": "Tế bào cơ trơn có thể tái tạo nhờ:",
+      "options": [
+        "Nguyên bào sợi",
+        "Chu bào quanh mạch máu nhỏ",
+        "Tế bào gốc thần kinh",
+        "Tế bào Schwann"
+      ],
+      "answer": "Chu bào quanh mạch máu nhỏ"
+    },
+    {
+      "question": "Trong sự co cơ trơn, ion điều hòa quan trọng nhất là:",
+      "options": [
+        "Na⁺",
+        "K⁺",
+        "Ca²⁺",
+        "Mg²⁺"
+      ],
+      "answer": "Ca²⁺"
+    },
+    {
+      "question": "Đặc điểm sự co cơ trơn sai là:",
+      "options": [
+        "Do ion Ca²⁺ điều hòa",
+        "Actin và myosin di chuyển tương đối",
+        "Cơ trơn co ngắn được 80%",
+        "Do ion K⁺ điều hòa chính"
+      ],
+      "answer": "Do ion K⁺ điều hòa chính"
+    },
+    {
+      "question": "Khi cơ tim hoại tử, mô sẽ được thay thế bằng:",
+      "options": [
+        "Cơ trơn",
+        "Cơ vân",
+        "Mô xơ",
+        "Tế bào gốc"
+      ],
+      "answer": "Mô xơ"
+    },
+    {
+      "question": "Ở người trưởng thành, tế bào cơ nào có khả năng nguyên phân?",
+      "options": [
+        "Cơ vân",
+        "Cơ tim",
+        "Cơ trơn",
+        "Tất cả sai"
+      ],
+      "answer": "Cơ trơn"
+    },
+    {
+      "question": "Trong tập luyện thể dục, cơ vân phát triển chủ yếu do:",
+      "options": [
+        "Tăng số lượng tế bào cơ",
+        "Tăng kích thước và số lượng siêu sợi",
+        "Nguyên phân mạnh",
+        "Tăng lượng máu đến cơ"
+      ],
+      "answer": "Tăng kích thước và số lượng siêu sợi"
+    },
+    {
+      "question": "Cơ nào KHÔNG phải cơ vân?",
+      "options": [
+        "Cơ bắp tay",
+        "Cơ lưỡi",
+        "Cơ tim",
+        "Cơ mặt"
+      ],
+      "answer": "Cơ tim"
+    },
+    {
+      "question": "Cơ trơn gặp ở cơ quan nào?",
+      "options": [
+        "Ruột",
+        "Mạch máu",
+        "Tử cung",
+        "Tất cả đúng"
+      ],
+      "answer": "Tất cả đúng"
+    },
+    {
+      "question": "Tế bào cơ biểu mô có nguồn gốc từ:",
+      "options": [
+        "Ngoại bì",
+        "Trung bì",
+        "Nội bì",
+        "Mô liên kết"
+      ],
+      "answer": "Ngoại bì"
+    },
+    {
+      "question": "Nguyên bào sợi – cơ có chức năng đặc biệt:",
+      "options": [
+        "Sinh năng lượng",
+        "Tiết collagen",
+        "Co kéo vết thương",
+        "Dẫn truyền thần kinh"
+      ],
+      "answer": "Co kéo vết thương"
+    },
+    {
+      "question": "Đặc điểm nào sau đây KHÔNG đúng với cơ vân?",
+      "options": [
+        "Có nhiều nhân sát màng",
+        "Có vân ngang",
+        "Có sarcomere",
+        "Tái tạo dễ dàng bằng phân bào"
+      ],
+      "answer": "Tái tạo dễ dàng bằng phân bào"
+    },
+    {
+      "question": "Mô thần kinh có nguồn gốc từ lớp mầm phôi:",
+      "options": [
+        "Trung bì",
+        "Ngoại bì",
+        "Nội bì",
+        "Trung mô"
+      ],
+      "answer": "Ngoại bì"
+    },
+    {
+      "question": "Đơn vị cấu tạo và chức năng của hệ thần kinh là:",
+      "options": [
+        "Tế bào đệm",
+        "Nơron",
+        "Sợi trục",
+        "Synap"
+      ],
+      "answer": "Nơron"
+    },
+    {
+      "question": "Nơron một cực giả thường gặp ở:",
+      "options": [
+        "Võng mạc thị giác",
+        "Hạch gai",
+        "Hệ thần kinh trung ương",
+        "Tủy sống"
+      ],
+      "answer": "Hạch gai"
+    },
+    {
+      "question": "Nơron hai cực thường gặp ở:",
+      "options": [
+        "Hạch gai",
+        "Võng mạc thị giác",
+        "Tiểu não",
+        "Đại não"
+      ],
+      "answer": "Võng mạc thị giác"
+    },
+    {
+      "question": "Nơron đa cực chiếm:",
+      "options": [
+        "Số ít",
+        "Đa số",
+        "Chỉ ở hạch ngoại biên",
+        "Chỉ ở não"
+      ],
+      "answer": "Đa số"
+    },
+    {
+      "question": "Thân nơron có nhiều thể Nissl, đó là:",
+      "options": [
+        "Ty thể",
+        "Lưới nội bào hạt + ribosome",
+        "Bộ Golgi",
+        "Lysosome"
+      ],
+      "answer": "Lưới nội bào hạt + ribosome"
+    },
+    {
+      "question": "Sợi thần kinh có myelin được bao bọc bởi:",
+      "options": [
+        "Tế bào Schwann hoặc oligodendrocyte",
+        "Tế bào astrocyte",
+        "Vi bào đệm",
+        "Ependymal cell"
+      ],
+      "answer": "Tế bào Schwann hoặc oligodendrocyte"
+    },
+    {
+      "question": "Bao myelin có vai trò:",
+      "options": [
+        "Tăng tốc độ dẫn truyền",
+        "Sinh năng lượng",
+        "Duy trì nồng độ ion",
+        "Ngăn ngừa viêm nhiễm"
+      ],
+      "answer": "Tăng tốc độ dẫn truyền"
+    },
+    {
+      "question": "Khớp thần kinh (synap) là nơi tiếp xúc giữa:",
+      "options": [
+        "Hai sợi trục",
+        "Hai thân nơron",
+        "Sợi trục – đích (nơron, cơ, tuyến)",
+        "Sợi nhánh – cơ"
+      ],
+      "answer": "Sợi trục – đích (nơron, cơ, tuyến)"
+    },
+    {
+      "question": "Chất trung gian hóa học phổ biến tại synap là:",
+      "options": [
+        "Acetylcholine",
+        "Insulin",
+        "Adrenalin",
+        "Dopamin"
+      ],
+      "answer": "Acetylcholine"
+    },
+    {
+      "question": "Tế bào thần kinh đệm có vai trò chính:",
+      "options": [
+        "Dẫn truyền xung động",
+        "Bảo vệ và nuôi dưỡng nơron",
+        "Sinh sarcomere",
+        "Sinh myosin"
+      ],
+      "answer": "Bảo vệ và nuôi dưỡng nơron"
+    },
+    {
+      "question": "Tế bào ít nhánh (oligodendrocyte) có chức năng:",
+      "options": [
+        "Tạo bao myelin ở TKTW",
+        "Thực bào",
+        "Chống oxy hóa",
+        "Tiết dịch não tủy"
+      ],
+      "answer": "Tạo bao myelin ở TKTW"
+    },
+    {
+      "question": "Tế bào Schwann có chức năng:",
+      "options": [
+        "Tạo myelin ở ngoại biên",
+        "Tạo myelin ở trung ương",
+        "Thực bào",
+        "Điều hòa Ca²⁺"
+      ],
+      "answer": "Tạo myelin ở ngoại biên"
+    },
+    {
+      "question": "Tế bào sao (astrocyte) có vai trò:",
+      "options": [
+        "Tạo hàng rào máu – não",
+        "Sinh myelin",
+        "Sinh dopamin",
+        "Sinh actin"
+      ],
+      "answer": "Tạo hàng rào máu – não"
+    },
+    {
+      "question": "Vi bào đệm có chức năng chính:",
+      "options": [
+        "Sinh năng lượng",
+        "Bảo vệ bằng thực bào",
+        "Dẫn truyền điện thế hoạt động",
+        "Tạo synap"
+      ],
+      "answer": "Bảo vệ bằng thực bào"
+    },
+    {
+      "question": "Dịch não tủy được tiết ra bởi:",
+      "options": [
+        "Vi bào đệm",
+        "Tế bào Schwann",
+        "Tế bào ít nhánh",
+        "Tế bào ống nội tủy (ependymal cell)"
+      ],
+      "answer": "Tế bào ống nội tủy (ependymal cell)"
+    },
+    {
+      "question": "Trong tủy sống, chất trắng nằm ở vị trí:",
+      "options": [
+        "Ngoài",
+        "Trong",
+        "Giữa",
+        "Chỉ ở sừng trước"
+      ],
+      "answer": "Ngoài"
+    },
+    {
+      "question": "Trong tủy sống, chất xám có hình:",
+      "options": [
+        "Hình tròn",
+        "Hình chữ H",
+        "Hình tam giác",
+        "Hình vuông"
+      ],
+      "answer": "Hình chữ H"
+    },
+    {
+      "question": "Chức năng của sừng trước chất xám tủy sống là:",
+      "options": [
+        "Vận động",
+        "Cảm giác",
+        "Tiết dịch não tủy",
+        "Sinh myelin"
+      ],
+      "answer": "Vận động"
+    },
+    {
+      "question": "Sừng sau chất xám tủy sống liên quan đến:",
+      "options": [
+        "Vận động",
+        "Cảm giác",
+        "Thăng bằng",
+        "Hệ nội tiết"
+      ],
+      "answer": "Cảm giác"
+    },
+    {
+      "question": "Sợi thần kinh hướng tâm có nhiệm vụ:",
+      "options": [
+        "Truyền tín hiệu từ cơ – quan cảm thụ về TKTW",
+        "Truyền từ TKTW đến cơ",
+        "Trung gian trong TKTW",
+        "Tạo myelin"
+      ],
+      "answer": "Truyền tín hiệu từ cơ – quan cảm thụ về TKTW"
+    },
+    {
+      "question": "Sợi thần kinh ly tâm có nhiệm vụ:",
+      "options": [
+        "Dẫn truyền vận động từ TKTW ra ngoại vi",
+        "Dẫn truyền cảm giác về TKTW",
+        "Tạo dịch não tủy",
+        "Thực bào"
+      ],
+      "answer": "Dẫn truyền vận động từ TKTW ra ngoại vi"
+    },
+    {
+      "question": "Sợi thần kinh chuyển tiếp (trung gian) có ở:",
+      "options": [
+        "TKTW",
+        "TKNB",
+        "Cơ",
+        "Hạch ngoại biên"
+      ],
+      "answer": "TKTW"
+    },
+    {
+      "question": "Hệ thần kinh trung ương gồm:",
+      "options": [
+        "Não, tủy sống",
+        "Dây thần kinh, hạch thần kinh",
+        "Tận cùng thần kinh",
+        "Cơ quan cảm thụ"
+      ],
+      "answer": "Não, tủy sống"
+    },
+    {
+      "question": "Hệ thần kinh ngoại biên gồm:",
+      "options": [
+        "Dây thần kinh, hạch thần kinh, tận cùng TK ngoại biên",
+        "Não, tủy sống",
+        "Tủy sống, đại não",
+        "Tủy sống, tiểu não"
+      ],
+      "answer": "Dây thần kinh, hạch thần kinh, tận cùng TK ngoại biên"
+    }
+  ],
+    "part8": [
+      {
+        "question": "Loại cơ nào có cấu tạo từ sarcomere?",
+        "options": [
+          "Cơ vân",
+          "Cơ tim",
+          "Cơ trơn",
+          "Cơ biểu mô"
+        ],
+        "answer": "Cơ vân, Cơ tim"
+      },
+      {
+        "question": "Loại cơ nào KHÔNG có vân ngang?",
+        "options": [
+          "Cơ vân",
+          "Cơ tim",
+          "Cơ trơn",
+          "Cơ mặt"
+        ],
+        "answer": "Cơ trơn"
+      },
+      {
+        "question": "Cơ quan nào có tế bào cơ biểu mô tham gia co rút?",
+        "options": [
+          "Tuyến mồ hôi",
+          "Tuyến nước bọt",
+          "Tuyến vú",
+          "Tất cả đúng"
+        ],
+        "answer": "Tất cả đúng"
+      },
+      {
+        "question": "Bản vận động thần kinh – cơ có ở loại cơ nào?",
+        "options": [
+          "Cơ tim",
+          "Cơ trơn",
+          "Cơ vân",
+          "Tất cả"
+        ],
+        "answer": "Cơ vân"
+      },
+      {
+        "question": "Hệ thống ống T (triade) có vai trò:",
+        "options": [
+          "Dẫn truyền xung thần kinh",
+          "Điều hòa ion Ca²⁺",
+          "Tăng số lượng sarcomere",
+          "Ngăn ngừa viêm"
+        ],
+        "answer": "Điều hòa ion Ca²⁺"
+      },
+      {
+        "question": "Đặc điểm đúng của băng A trong cơ vân:",
+        "options": [
+          "Biến đổi độ dài khi cơ co",
+          "Luôn giữ nguyên độ dài",
+          "Mất đi khi cơ giãn",
+          "Gắn vào vạch Z"
+        ],
+        "answer": "Luôn giữ nguyên độ dài"
+      },
+      {
+        "question": "Khi cơ vân co, vạch H thay đổi thế nào?",
+        "options": [
+          "Dài ra",
+          "Ngắn lại",
+          "Biến mất",
+          "Không đổi"
+        ],
+        "answer": "Ngắn lại hoặc biến mất"
+      },
+      {
+        "question": "Sợi cơ vân dạng trụ dài có đặc điểm:",
+        "options": [
+          "1 nhân trung tâm",
+          "Nhiều nhân sát màng",
+          "Có phân nhánh",
+          "Không có vân ngang"
+        ],
+        "answer": "Nhiều nhân sát màng"
+      },
+      {
+        "question": "Cơ nào co nhanh nhưng ít bền?",
+        "options": [
+          "Sợi cơ trắng",
+          "Sợi cơ đỏ",
+          "Sợi cơ trung gian",
+          "Tất cả đều bền"
+        ],
+        "answer": "Sợi cơ trắng"
+      },
+      {
+        "question": "Loại sợi cơ nào vừa mạnh vừa trung bình về độ bền?",
+        "options": [
+          "Cơ trắng",
+          "Cơ đỏ",
+          "Trung gian",
+          "Không có loại này"
+        ],
+        "answer": "Trung gian"
+      },
+      {
+        "question": "Trong cơ tim, vị trí nối các tế bào cơ là:",
+        "options": [
+          "Vạch Z",
+          "Vạch bậc thang",
+          "Sarcomere",
+          "Bao cơ tim"
+        ],
+        "answer": "Vạch bậc thang"
+      },
+      {
+        "question": "Loại cơ hoạt động không theo ý muốn:",
+        "options": [
+          "Cơ trơn",
+          "Cơ tim",
+          "Cả A và B",
+          "Cơ vân"
+        ],
+        "answer": "Cả A và B"
+      },
+      {
+        "question": "Tế bào cơ tim có bao nhiêu nhân điển hình?",
+        "options": [
+          "Không có nhân",
+          "1 – 2 nhân trung tâm",
+          "Nhiều nhân sát màng",
+          "3 nhân"
+        ],
+        "answer": "1 – 2 nhân trung tâm"
+      },
+      {
+        "question": "Cơ trơn có hình dạng tế bào:",
+        "options": [
+          "Trụ dài, nhiều nhân",
+          "Hình thoi, 1 nhân",
+          "Tròn",
+          "Phân nhánh"
+        ],
+        "answer": "Hình thoi, 1 nhân"
+      },
+      {
+        "question": "Khi cơ trơn co, đặc điểm nhân thay đổi:",
+        "options": [
+          "Xoắn vặn",
+          "Giữ nguyên",
+          "Vỡ ra",
+          "Tạo nhiều nhân"
+        ],
+        "answer": "Xoắn vặn"
+      },
+      {
+        "question": "Sự tái tạo mô cơ tim sau nhồi máu chủ yếu là:",
+        "options": [
+          "Nguyên phân",
+          "Biệt hóa",
+          "Thay thế bằng mô xơ",
+          "Sinh mạch mới"
+        ],
+        "answer": "Thay thế bằng mô xơ"
+      },
+      {
+        "question": "Nguyên bào sợi – cơ thường thấy nhiều trong:",
+        "options": [
+          "Gan",
+          "Tủy xương",
+          "Vết thương đang lành",
+          "Tủy sống"
+        ],
+        "answer": "Vết thương đang lành"
+      },
+      {
+        "question": "Chức năng chính của tế bào cơ biểu mô là:",
+        "options": [
+          "Dẫn truyền thần kinh",
+          "Hỗ trợ tuyến tiết",
+          "Sinh collagen",
+          "Tái tạo cơ tim"
+        ],
+        "answer": "Hỗ trợ tuyến tiết"
+      },
+      {
+        "question": "Mô cơ nào có nhiều myoglobin nhất?",
+        "options": [
+          "Cơ trắng",
+          "Cơ đỏ",
+          "Cơ trung gian",
+          "Cơ tim"
+        ],
+        "answer": "Cơ đỏ"
+      },
+      {
+        "question": "Loại cơ nào làm nhiệm vụ bơm máu?",
+        "options": [
+          "Cơ vân",
+          "Cơ tim",
+          "Cơ trơn",
+          "Cơ biểu mô"
+        ],
+        "answer": "Cơ tim"
+      },
+      {
+        "question": "Thành phần nào KHÔNG thuộc mô thần kinh?",
+        "options": [
+          "Nơron",
+          "Tế bào Schwann",
+          "Tế bào sừng",
+          "Oligodendrocyte"
+        ],
+        "answer": "Tế bào sừng"
+      },
+      {
+        "question": "Loại nơron có ở võng mạc thị giác?",
+        "options": [
+          "Đa cực",
+          "Một cực",
+          "Hai cực",
+          "Trung gian"
+        ],
+        "answer": "Hai cực"
+      },
+      {
+        "question": "Loại nơron phổ biến nhất trong cơ thể là:",
+        "options": [
+          "Đa cực",
+          "Một cực",
+          "Hai cực",
+          "Trung gian"
+        ],
+        "answer": "Đa cực"
+      },
+      {
+        "question": "Sợi thần kinh có myelin khác không myelin ở điểm nào?",
+        "options": [
+          "Có synap",
+          "Tốc độ dẫn truyền nhanh hơn",
+          "Ít cần năng lượng hơn",
+          "Không tiếp xúc tế bào đích"
+        ],
+        "answer": "Tốc độ dẫn truyền nhanh hơn"
+      },
+      {
+        "question": "Điểm xuất phát của sợi trục là:",
+        "options": [
+          "Thân nơron",
+          "Đồi trục (axon hillock)",
+          "Bao myelin",
+          "Vạch Z"
+        ],
+        "answer": "Đồi trục (axon hillock)"
+      },
+      {
+        "question": "Synap hóa học truyền xung động nhờ:",
+        "options": [
+          "Dòng ion",
+          "Chất trung gian hóa học",
+          "Nhiệt độ",
+          "Áp suất"
+        ],
+        "answer": "Chất trung gian hóa học"
+      },
+      {
+        "question": "Chất dẫn truyền chính tại bản vận động thần kinh – cơ là:",
+        "options": [
+          "Acetylcholine",
+          "Dopamin",
+          "Noradrenalin",
+          "Serotonin"
+        ],
+        "answer": "Acetylcholine"
+      },
+      {
+        "question": "Tế bào đệm có chức năng tạo bao myelin ở ngoại biên là:",
+        "options": [
+          "Astrocyte",
+          "Schwann",
+          "Oligodendrocyte",
+          "Microglia"
+        ],
+        "answer": "Schwann"
+      },
+      {
+        "question": "Oligodendrocyte khác Schwann ở điểm nào?",
+        "options": [
+          "Có trong ngoại biên",
+          "Tạo myelin cho nhiều sợi cùng lúc",
+          "Không tạo myelin",
+          "Thực bào"
+        ],
+        "answer": "Tạo myelin cho nhiều sợi cùng lúc"
+      },
+      {
+        "question": "Tế bào astrocyte có vai trò chính:",
+        "options": [
+          "Hình thành hàng rào máu – não",
+          "Sinh dịch não tủy",
+          "Dẫn truyền vận động",
+          "Sinh sarcomere"
+        ],
+        "answer": "Hình thành hàng rào máu – não"
+      },
+      {
+        "question": "Tế bào vi bào đệm tham gia:",
+        "options": [
+          "Thực bào",
+          "Sinh synap",
+          "Dẫn truyền xung",
+          "Sinh collagen"
+        ],
+        "answer": "Thực bào"
+      },
+      {
+        "question": "Tế bào ependymal tiết:",
+        "options": [
+          "Dịch não tủy",
+          "Dopamin",
+          "Collagen",
+          "Acetylcholine"
+        ],
+        "answer": "Dịch não tủy"
+      },
+      {
+        "question": "Chất trắng tủy sống chứa chủ yếu:",
+        "options": [
+          "Thân nơron",
+          "Sợi thần kinh có myelin",
+          "Mao mạch",
+          "Vi bào đệm"
+        ],
+        "answer": "Sợi thần kinh có myelin"
+      },
+      {
+        "question": "Chất xám tủy sống chứa:",
+        "options": [
+          "Thân nơron",
+          "Sợi TK có myelin lớn",
+          "Chủ yếu là sợi trục",
+          "Chỉ có dịch não tủy"
+        ],
+        "answer": "Thân nơron"
+      },
+      {
+        "question": "Sừng trước chất xám có chức năng:",
+        "options": [
+          "Cảm giác",
+          "Vận động",
+          "Tiết dịch não tủy",
+          "Sinh máu"
+        ],
+        "answer": "Vận động"
+      },
+      {
+        "question": "Hệ thần kinh ngoại biên gồm:",
+        "options": [
+          "Não, tủy sống",
+          "Dây thần kinh, hạch, tận cùng TK",
+          "Tiểu não, đại não",
+          "Hạch, cơ, tuyến"
+        ],
+        "answer": "Dây thần kinh, hạch, tận cùng TK"
+      },
+      {
+        "question": "Hệ thần kinh trung ương gồm:",
+        "options": [
+          "Não, tủy sống",
+          "Dây thần kinh, hạch",
+          "Synap",
+          "Cơ vân"
+        ],
+        "answer": "Não, tủy sống"
+      },
+      {
+        "question": "Nơron hướng tâm dẫn truyền:",
+        "options": [
+          "Tín hiệu từ cơ quan cảm giác về TKTW",
+          "Tín hiệu từ TKTW ra cơ",
+          "Trung gian trong não",
+          "Sinh dịch não tủy"
+        ],
+        "answer": "Tín hiệu từ cơ quan cảm giác về TKTW"
+      },
+      {
+        "question": "Nơron ly tâm dẫn truyền:",
+        "options": [
+          "Vận động từ TKTW ra cơ",
+          "Cảm giác về TKTW",
+          "Xung động trong synap",
+          "Sinh myelin"
+        ],
+        "answer": "Vận động từ TKTW ra cơ"
+      },
+      {
+        "question": "Nơron trung gian có vai trò:",
+        "options": [
+          "Liên kết nơron trong TKTW",
+          "Sinh myelin",
+          "Sinh dịch não tủy",
+          "Điều hòa Ca²⁺"
+        ],
+        "answer": "Liên kết nơron trong TKTW"
+      },
+      {
+        "question": "Tại synap, túi synap chứa:",
+        "options": [
+          "Ion Na⁺",
+          "Ion Ca²⁺",
+          "Chất dẫn truyền thần kinh",
+          "ATP"
+        ],
+        "answer": "Chất dẫn truyền thần kinh"
+      },
+      {
+        "question": "Khi dẫn truyền thần kinh, ion nào đi vào bào tương gây khử cực?",
+        "options": [
+          "Na⁺",
+          "K⁺",
+          "Cl⁻",
+          "H⁺"
+        ],
+        "answer": "Na⁺"
+      },
+      {
+        "question": "Bao myelin bị tổn thương gây hậu quả:",
+        "options": [
+          "Dẫn truyền nhanh hơn",
+          "Dẫn truyền chậm, thậm chí mất dẫn truyền",
+          "Tăng cường tái tạo synap",
+          "Không ảnh hưởng"
+        ],
+        "answer": "Dẫn truyền chậm, thậm chí mất dẫn truyền"
+      },
+      {
+        "question": "Hàng rào máu – não có vai trò:",
+        "options": [
+          "Bảo vệ TKTW khỏi chất độc",
+          "Truyền xung động nhanh hơn",
+          "Sinh sarcomere",
+          "Sinh actin"
+        ],
+        "answer": "Bảo vệ TKTW khỏi chất độc"
+      },
+      {
+        "question": "Tế bào nào KHÔNG thuộc nhóm thần kinh đệm?",
+        "options": [
+          "Oligodendrocyte",
+          "Astrocyte",
+          "Schwann",
+          "Nơron"
+        ],
+        "answer": "Nơron"
+      },
+      {
+        "question": "Bệnh đa xơ cứng (MS) liên quan đến tổn thương:",
+        "options": [
+          "Synap",
+          "Bao myelin",
+          "Sarcomere",
+          "Tế bào cơ trơn"
+        ],
+        "answer": "Bao myelin"
+      },
+      {
+        "question": "Phần nào của nơron chứa nhân và bào quan?",
+        "options": [
+          "Sợi trục",
+          "Thân nơron",
+          "Sợi nhánh",
+          "Bao myelin"
+        ],
+        "answer": "Thân nơron"
+      },
+      {
+        "question": "Phần nào của nơron tiếp nhận tín hiệu từ tế bào khác?",
+        "options": [
+          "Thân nơron",
+          "Sợi nhánh (dendrite)",
+          "Sợi trục",
+          "Bao myelin"
+        ],
+        "answer": "Sợi nhánh (dendrite)"
+      },
+      {
+        "question": "Ở tủy sống, sợi thần kinh không myelin tập trung nhiều ở:",
+        "options": [
+          "Chất trắng",
+          "Chất xám",
+          "Tiểu não",
+          "Bao myelin"
+        ],
+        "answer": "Chất xám"
+      },
+      {
+        "question": "Trong phản xạ đơn giản (ví dụ phản xạ gân gối), loại nơron nào không thể thiếu?",
+        "options": [
+          "Nơron cảm giác",
+          "Nơron vận động",
+          "Nơron trung gian",
+          "Tất cả đúng"
+        ],
+        "answer": "Tất cả đúng"
+      }
+    ]
+  
 } 
